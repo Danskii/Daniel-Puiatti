@@ -4,22 +4,21 @@ body {
 }
 
 h1 {
-  clear: both;
-  padding: 1rem;
+	clear: both;
+	padding: 1rem;
 }
 
 p {
 	padding-left: 1rem;
 	padding-right: 1rem;
-
 }
 
 #styledHeadingAddition {
-clear: both;
-font-size: 1.5rem;
-    font-style: italic;
+	clear: both;
+	font-size: 1.5rem;
+	font-style: italic;
 }
 
 img {
-	    box-shadow: 3px 3px 9px;
+	box-shadow: 3px 3px 9px;
 }
