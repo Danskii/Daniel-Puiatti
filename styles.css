@@ -1,5 +1,4 @@
 body {
-	font-size: 2rem;
 	padding: 2.5rem;
 }
 
@@ -50,4 +49,8 @@ img {
 
 main {
     animation-duration: 10s;
+}
+
+#imageWrapper {
+	    height: fit-content;
 }
