@@ -1,6 +1,7 @@
 body {
 	font-size: 2rem;
-	padding: 2rem;
+	padding: 4rem;
+    animation-duration: 5s;
 }
 
 h1 {
