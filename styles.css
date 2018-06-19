@@ -1,7 +1,6 @@
 body {
 	font-size: 2rem;
 	padding: 2.5rem;
-    animation-duration: 10s;
 }
 
 h1 {
@@ -47,3 +46,8 @@ img {
 	margin: 10px 0px 60px;
 	border: 1px solid GREY;
 	}
+
+
+main {
+    animation-duration: 5s;
+}
