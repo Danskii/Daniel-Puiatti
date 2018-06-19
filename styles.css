@@ -31,6 +31,7 @@ img {
 .emphasizedText {
         background-color: #343a40ad;
     color: white;
+        max-width: 1284px;
 }
 
 
