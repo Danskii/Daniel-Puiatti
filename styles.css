@@ -1,1 +1,35 @@
 
+.jumbotron {
+padding-top: 2rem;
+}
+
+img {
+	margin-right: 1.3rem;
+}
+
+.homepageButtons {
+width: 100%;
+display: inline-flex;
+margin: 1.5rem;
+}
+
+body {
+	background-image: url(//www.toptal.com/designers/subtlepatterns/patterns/symphony.png);
+	background-position: bottom;
+	animation: 5s linear 0s infinite bp;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Ruda:900');
+
+@keyframes bp {
+	from {
+		background-position: 198px 0;
+	}
+
+	to {
+		background-position: 0 198px;
+	}
+}
+
+
+
