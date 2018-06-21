@@ -31,3 +31,18 @@ body {
 	}
 }
 
+#portfolioHeadingOne {
+    display: block;
+    width: 100%;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card {
+        flex-shrink: 0;
+    flex-grow: 0;
+    min-width: 100%;
+}
+
