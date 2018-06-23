@@ -13,12 +13,13 @@ display: inline-flex;
 margin: 1.5rem;
 }
 
-
+body {
+	animation: 6s linear 0s infinite bp;
+}
 
 /*body {
 	background-image: url(//www.toptal.com/designers/subtlepatterns/patterns/symphony.png);
 	background-position: bottom;
-	animation: 5s linear 0s infinite bp;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Ruda:900');
@@ -78,3 +79,14 @@ border-bottom: 1.5px solid;
 
 #profileImage {
 	width: 305px;
+}
+
+li {
+	padding: .5rem;
+}
+
+.navbar {
+	background: #00B4DB; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #0083B0, #00B4DB); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #0083B0, #00B4DB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
