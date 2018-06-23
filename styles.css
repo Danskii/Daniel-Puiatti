@@ -56,10 +56,22 @@ h1 {
 	background-color: #007bff8a !important;
 }
 
-.jumbotron {
-	background-color: unset;
+
+.resumeListingWrapper {
+    padding-left: 2rem;
 }
 
-#profileImage {
-width:	305px;
+#resumeIntro {
+    padding-left: 5rem;
+    padding-right: 5rem;
+    font-size: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+
+.resumeHeading {
+    width: 90%;
+    border-bottom: 1px solid black;
+    margin-left: 5rem;
 }
