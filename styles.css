@@ -13,7 +13,9 @@ display: inline-flex;
 margin: 1.5rem;
 }
 
-body {
+
+
+/*body {
 	background-image: url(//www.toptal.com/designers/subtlepatterns/patterns/symphony.png);
 	background-position: bottom;
 	animation: 5s linear 0s infinite bp;
@@ -29,12 +31,7 @@ body {
 	to {
 		background-position: 0 198px;
 	}
-}
-
-#portfolioHeadingOne {
-    display: block;
-    width: 100%;
-}
+}*/
 
 .card-body {
     text-align: center;
@@ -57,21 +54,27 @@ h1 {
 }
 
 
-.resumeListingWrapper {
-    padding-left: 2rem;
-}
-
 #resumeIntro {
-    padding-left: 5rem;
-    padding-right: 5rem;
-    font-size: 1.5rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+	font-size: 1.5rem;
 }
 
+#resumeSection {
+padding: 2rem;
+}
 
 .resumeHeading {
-    width: 90%;
-    border-bottom: 1px solid black;
-    margin-left: 5rem;
+padding: 1rem;
+border-bottom: 1.5px solid;
+
 }
+
+.resumeListingWrapper {
+	padding: 1rem;
+}
+
+.jumbotron {
+	background-color: unset;
+}
+
+#profileImage {
+	width: 305px;
