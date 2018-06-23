@@ -1,6 +1,6 @@
-
 .jumbotron {
-padding-top: 2rem;
+	padding-top: 2rem;
+	padding-bottom: .5rem;
 }
 
 img {
@@ -8,14 +8,11 @@ img {
 }
 
 .homepageButtons {
-width: 100%;
-display: inline-flex;
-margin: 1.5rem;
+	width: 100%;
+	display: inline-flex;
+	margin: 1.5rem;
 }
 
-body {
-	animation: 6s linear 0s infinite bp;
-}
 
 /*body {
 	background-image: url(//www.toptal.com/designers/subtlepatterns/patterns/symphony.png);
@@ -35,7 +32,7 @@ body {
 }*/
 
 .card-body {
-    text-align: center;
+	text-align: center;
 }
 
 .card {
@@ -54,19 +51,17 @@ h1 {
 	background-color: #007bff8a !important;
 }
 
-
 #resumeIntro {
 	font-size: 1.5rem;
 }
 
 #resumeSection {
-padding: 2rem;
+	padding: 2rem;
 }
 
 .resumeHeading {
-padding: 1rem;
-border-bottom: 1.5px solid;
-
+	padding: 1rem;
+	border-bottom: 1.5px solid;
 }
 
 .resumeListingWrapper {
@@ -90,3 +85,14 @@ li {
 	background: -webkit-linear-gradient(to right, #0083B0, #00B4DB); /* Chrome 10-25, Safari 5.1-6 */
 	background: linear-gradient(to right, #0083B0, #00B4DB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+
+#styledHeadingAddition {
+	font-style: italic;
+	font-size: 2.5rem;
+}
+
+footer {
+padding-left: 2rem;
+padding-right: 2rem;
+}
+
