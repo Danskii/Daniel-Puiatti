@@ -96,6 +96,6 @@ padding-left: 2rem;
 padding-right: 2rem;
 }
 
-.blogIndex {
+div.jumbotron.blogIndex {
     background-color: #e9ecef00; 
 }
