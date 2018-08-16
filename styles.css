@@ -95,3 +95,23 @@ footer {
 padding-left: 2rem;
 padding-right: 2rem;
 }
+
+#startingABrandFromScratchFigure {
+    display: flex;
+}
+
+.musingsWrapper {
+    margin: 3% 30% 3% 25%;
+    line-height: 2;
+    color: #3d3d3d;
+    font-size: 18px;
+    font-family: "Proxima Nova",ProximaNova-Light,Arial,"Helvetica Neue",Helvetica,sans-serif;
+    text-align: justify;
+}
+
+.text-muted {
+    color: #6c757d!important;
+    font-size: 15px;
+    padding-left: 41px;
+    padding-top: 5px;
+}
