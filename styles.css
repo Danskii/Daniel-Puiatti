@@ -134,12 +134,11 @@ padding-right: 2rem;
 }	
 
 .endOfArticleCTA:hover  {
-    /* width: 320px; */
-    background: white;
-    color: #01a3cc;
+    background: #114d5d;
+    color: white;
 }
 
-.endOfArticleCTA {
+.endOfArticleCTA > a{
 	text-decoration: none;
 }
 
