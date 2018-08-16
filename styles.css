@@ -115,3 +115,22 @@ padding-right: 2rem;
     padding-left: 41px;
     padding-top: 5px;
 }
+
+.endOfArticleCTA {
+        text-align: center;
+    margin: 20px;
+    padding: 10px;
+    font-size: 25px;
+    color: white;
+    background: #00a7cf;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.endOfArticleCTA:hover {
+       background: white;
+       color: #00a7cf;
+}
+
+.endOfArticleCTA > a {
+    text-decoration: none;
+}
