@@ -142,8 +142,10 @@ padding-right: 2rem;
 	text-decoration: none;
 }
 
-
-
 .social a {
   padding: 0 .5em;
+}
+
+.socialShareContainer {
+    text-align: center;
 }
