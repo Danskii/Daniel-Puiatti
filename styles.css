@@ -153,4 +153,8 @@ padding-right: 2rem;
     text-align: center;
 }
 
-
+musingsWrapper {
+    background-color: #00a4cc14;
+    padding: 30px;
+    border-radius: 10px 10px 10px 10px;
+}
