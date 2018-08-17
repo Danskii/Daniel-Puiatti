@@ -159,3 +159,18 @@ padding-right: 2rem;
     border-radius: 10px 10px 10px 10px;
     border: 20px solid #00a8d008;
 }
+
+
+.musingsPhotoEmbed {
+        max-width: 100%;
+}
+
+.musingsPhotoEmbed > img {
+        border: 10px solid #8080804d;
+
+}
+
+.musingsPhotoEmbed > figcaption {
+    text-align: right;
+    font-style: italic;
+}
