@@ -181,3 +181,7 @@ blockquote {
 blockquote > a {
         color: black;
 }
+
+figure.musingsPhotoEmbed {
+text-align: center;
+}
