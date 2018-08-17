@@ -184,3 +184,7 @@ body > main > div > a > blockquote {
 figure.musingsPhotoEmbed {
 text-align: center;
 }
+
+#startingABrandFromScratchFigure > figcaption {
+	text-align: center;
+}
