@@ -167,7 +167,6 @@ padding-right: 2rem;
 }
 
 .musingsPhotoEmbed > figcaption {
-    text-align: right;
     font-style: italic;
 }
 
@@ -178,7 +177,7 @@ blockquote {
         margin: 20px;
 }
 
-blockquote > a {
+body > main > div > a > blockquote {
         color: black;
 }
 
