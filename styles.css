@@ -188,3 +188,7 @@ text-align: center;
 #startingABrandFromScratchFigure > figcaption {
 	text-align: center;
 }
+
+#startingABrandFromScratchFigure > figcaption > ul {
+	list-style: none;
+}
