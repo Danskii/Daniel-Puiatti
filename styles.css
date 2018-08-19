@@ -3,7 +3,7 @@
 	padding-bottom: .5rem;
 }
 
-img {
+|#profileImage {
 	margin-right: 1.3rem;
 }
 
@@ -97,23 +97,6 @@ padding-left: 2rem;
 padding-right: 2rem;
 }
 
-#startingABrandFromScratchFigure > img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 40px;
-    margin-bottom: 40px;
-}
-
-.musingsWrapper {
-    margin: 3% 30% 3% 25%;
-    line-height: 2;
-    color: #3d3d3d;
-    font-size: 18px;
-    font-family: "Proxima Nova",ProximaNova-Light,Arial,"Helvetica Neue",Helvetica,sans-serif;
-    text-align: justify;
-}
-
 .text-muted {
     color: #6c757d!important;
     font-size: 15px;
@@ -121,63 +104,88 @@ padding-right: 2rem;
     padding-top: 5px;
 }
 
-.endOfArticleCTA  {
-    /* width: 320px; */
-    background: #01a3cc;
-    color: white;
-    font-size: 22px;
-    text-align: center;
-    /* margin: 60px; */
-    margin-left: 15%;
-    margin-right: 15%;
-    margin-bottom: 30px;
-    padding: 10px;
-    border-radius: 20px;
-    line-height: 35px;
-}	
 
-.endOfArticleCTA:hover  {
-    background: #114d5d;
-    color: white;
-}
 
-.endOfArticleCTA > a{
-	text-decoration: none;
-}
-
-.social a {
-  padding: 0 .5em;
-}
-
-.socialShareContainer {
-    text-align: center;
-}
+/* start of musings section style*/
 
 .musingsWrapper {
-    background-color: #00a4cc14;
-    padding: 30px;
-    border-radius: 10px 10px 10px 10px;
-    border: 20px solid #00a8d008;
+	margin: 5% 10% 10% 10%;
+	font-family: "Proxima Nova", ProximaNova-Light, Arial, "Helvetica Neue" ,Helvetica ,sans-serif;
+}
+
+	.musingsWrapper a {
+	text-decoration: none;
+	color: unset;
+	}
+
+.musingsWrapper > h2 {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-bottom: 4%;
+}
+
+.musingsSubHeading {
+	border-left: 1px solid black;
+	margin: 4% 4% 4% 4%;
+	padding-left: 1%;
+	font-size: 1.5rem;
+	font-style: italic;
+	margin-bottom: 4%;
+}
+
+.musingsWrapper > p {
+		font-size: 1.5rem;
+		padding: 1% 5% 1% 5%;
+		line-height: 2;
+	}
+
+.musingsWrapper > ol {
+	font-size: 1.5rem;
+	padding: 1% 5% 1% 5%;
+	line-height: 2;
+}
+
+.musingsPhotoEmbed {
+margin: 5% 0 5% 0;
 }
 
 .musingsPhotoEmbed > img {
-        border: 10px solid #8080804d;
-        max-width: 100% !important;
-
+	max-width: 100%;
+	border: 1.5px solid black;
 }
 
 .musingsPhotoEmbed > figcaption {
-    text-align: right;
-    font-style: italic;
+text-align: center;
+font-size: 1.5rem;
+padding: 2%;
+font-style: italic;
+background: black;
+color: white;
 }
 
 blockquote {
-    font-style: italic;
-        padding-left: 20px;
-    border-left: 2px solid black;
-        margin: 20px;
+	font-size: 1.5rem;
+	padding: 1% 5% 5% 5%;
+	line-height: 1.5;
+	color: #2e2d2da3;
+	padding-left: 10%;
+	border-left: 1px solid grey;
+	border-bottom: .5px solid grey;
+	text-decoration: none;
 }
 
-blockquote > a {
-        color: black;
+
+	blockquote > a:hover {
+		color: black;
+	}
+
+	.social a {
+		padding: 0 .5em;
+	}
+
+.socialShareContainer {
+	text-align: center;
 }
+
+
+/* end of musings section style*/
