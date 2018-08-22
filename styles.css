@@ -120,20 +120,28 @@ padding-right: 2rem;
 	font-weight: 600;
 	}
 
-.musingsWrapper > h2 {
-	font-size: 2.5rem;
-	font-weight: 700;
-	margin-bottom: 4%;
-}
+	.musingsWrapper > h2 {
+		font-size: 2.5rem;
+		font-weight: 700;
+		margin-bottom: 4%;
+		text-transform: uppercase;
+	}
 
-.musingsSubHeading {
-	border-left: 1px solid black;
-	margin: 4% 4% 4% 4%;
-	padding-left: 1%;
-	font-size: 1.5rem;
-	font-style: italic;
-	margin-bottom: 4%;
-}
+	.musingsWrapper > h3 {
+		font-size: 2rem;
+		font-weight: 700;
+		margin-bottom: 4%;
+		text-transform: uppercase;
+	}
+
+	.musingsSubHeading {
+		border-left: 1px solid black;
+		margin: 4% 4% 4% 4%;
+		padding-left: 1%;
+		font-size: 1.5rem;
+		font-style: italic;
+		margin-bottom: 4%;
+	}
 
 .musingsWrapper > p {
 		font-size: 1.5rem;
@@ -161,25 +169,24 @@ padding-right: 2rem;
 	
 }
 
-.musingsPhotoEmbed > figcaption {
-text-align: center;
-font-size: 1.5rem;
-padding: 2%;
-font-style: italic;
-background: black;
-color: white;
-display: table-caption;
-caption-side: bottom;
-}
+	.musingsPhotoEmbed > figcaption {
+		text-align: center;
+		font-size: 1.5rem;
+		padding: 2%;
+		font-style: italic;
+		background: black;
+		color: white;
+		display: table-caption;
+		caption-side: bottom;
+	}
 
 blockquote {
 	font-size: 1.5rem;
-	padding: 1% 5% 5% 5%;
+	padding: 1% 1% 1% 1%;
+	margin: 1% 1% 1% 10%;
 	line-height: 1.5;
 	color: #2e2d2da3;
-	padding-left: 10%;
-	border-left: 1px solid grey;
-	border-bottom: .5px solid grey;
+	border-left: 3px solid black;
 	text-decoration: none;
 }
 
@@ -213,4 +220,14 @@ blockquote {
 	color: white;
 	}
 
-/* end of musings section style*/
+
+.musingsReminder {
+	padding: 1.5%;
+	font-size: 1.2rem;
+	background: #80808063;
+	margin: 2% 2% 2% 2%;
+}
+
+.breadcrumb {
+	background-color: unset;
+	/* end of musings section style*/
