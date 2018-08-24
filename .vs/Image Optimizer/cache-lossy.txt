@@ -1,0 +1,4 @@
+C:\Users\dan\source\repos\Daniel-Puiatti\portfolio-images\danskii.png|30785
+C:\Users\dan\source\repos\Daniel-Puiatti\portfolio-images\gradient-background-generator.png|16737
+C:\Users\dan\source\repos\Daniel-Puiatti\portfolio-images\toronto-bike-fixit-map.png|67915
+C:\Users\dan\source\repos\Daniel-Puiatti\portfolio-images\aoda-compliant.png|24065
