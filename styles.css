@@ -141,7 +141,7 @@ footer {
 	.musingsWrapper > h3 {
 		font-size: 2rem;
 		font-weight: 700;
-		margin-bottom: 4%;
+		margin: 4% 0 4% 0;
 		text-transform: uppercase;
 	}
 
@@ -166,8 +166,14 @@ footer {
 	line-height: 2;
 }
 
+.musingsWrapper > ul {
+	font-size: 1.5rem;
+	padding: 1% 5% 1% 5%;
+	line-height: 2;
+}
+
 .musingsPhotoEmbed {
-	margin: 5% 0 5% 0;
+	margin: 3% 0 3% 0;
 	text-align: center;
 	display: table;
 	margin-left: auto;
