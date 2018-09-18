@@ -250,3 +250,27 @@ blockquote {
 	background-color: unset;
 }
 /* end of musings section style*/
+
+.PhotoGalleryContainer {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 30px;
+}
+
+.PhotoGalleryContainer img {
+	width: 450px;
+	height: 300px;
+	margin: 20px;
+	transition: all 1s;
+}
+
+.PhotoGalleryContainer img:hover {
+	transform: scale(1.1);
+}
+
+	.PhotoGalleryContainer figcaption {
+		text-align: center;
+		margin: 0px 15px 0 15px;
+		padding: 10px 15px 10px 15px;
+	}
