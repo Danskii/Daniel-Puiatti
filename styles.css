@@ -269,9 +269,9 @@ blockquote {
 		background-color: #0000009c;
 	}
 
-.PhotoGalleryContainer img:hover {
-	transform: scale(1.1);
-}
+		.PhotoGalleryContainer img:hover {
+			transform: scale(1.1);
+		}
 
 	.PhotoGalleryContainer figcaption {
 		text-align: center;
