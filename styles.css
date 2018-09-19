@@ -253,12 +253,6 @@ blockquote {
 
 /*start photo gallery index page*/
 
-.PhotoGalleryContainer {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	padding: 30px;
-}
 
 	.PhotoGalleryContainer img {
 		width: 500px;
@@ -277,4 +271,21 @@ blockquote {
 		text-align: center;
 		margin: 0px 15px 0 15px;
 		padding: 10px 15px 10px 15px;
-	}
+	}*/
+
+
+.grid {
+	width: 100%;
+	parrin
+	justify-content: center;
+}
+
+
+
+.grid-item img {
+	width: 400px;
+	height: auto;
+	transition: all 1s;
+	background-color: #0000009c;
+}
+
