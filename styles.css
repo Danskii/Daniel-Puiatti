@@ -251,6 +251,8 @@ blockquote {
 }
 /* end of musings section style*/
 
+/*start photo gallery index page*/
+
 .PhotoGalleryContainer {
 	display: flex;
 	flex-wrap: wrap;
@@ -258,12 +260,14 @@ blockquote {
 	padding: 30px;
 }
 
-.PhotoGalleryContainer img {
-	width: 450px;
-	height: 300px;
-	margin: 20px;
-	transition: all 1s;
-}
+	.PhotoGalleryContainer img {
+		width: 500px;
+		height: auto;
+		margin: 20px;
+		transition: all 1s;
+		padding: 2px;
+		background-color: #0000009c;
+	}
 
 .PhotoGalleryContainer img:hover {
 	transform: scale(1.1);
