@@ -399,11 +399,11 @@ blockquote {
 	justify-content: center;
 }
 
-	.PhotoGalleryContainer > figure > img {
-		width: 500px;
-		height: auto;
-		margin: 10px;
-	}
+.PhotoGalleryContainer img {
+	width: 500px;
+	height: auto;
+	margin: 10px;
+}
 
 .PhotoGalleryContainer figure figcaption {
 		text-align: center;
