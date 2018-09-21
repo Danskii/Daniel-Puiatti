@@ -253,39 +253,3 @@ blockquote {
 
 /*start photo gallery index page*/
 
-
-	.PhotoGalleryContainer img {
-		width: 500px;
-		height: auto;
-		margin: 20px;
-		transition: all 1s;
-		padding: 2px;
-		background-color: #0000009c;
-	}
-
-		.PhotoGalleryContainer img:hover {
-			transform: scale(1.1);
-		}
-
-	.PhotoGalleryContainer figcaption {
-		text-align: center;
-		margin: 0px 15px 0 15px;
-		padding: 10px 15px 10px 15px;
-	}*/
-
-
-.grid {
-	width: 100%;
-	parrin
-	justify-content: center;
-}
-
-
-
-.grid-item img {
-	width: 400px;
-	height: auto;
-	transition: all 1s;
-	background-color: #0000009c;
-}
-
