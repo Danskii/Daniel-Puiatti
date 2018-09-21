@@ -399,7 +399,7 @@ blockquote {
 	justify-content: center;
 }
 
-.PhotoGalleryContainer img {
+.PhotoGalleryContainer > img {
 	width: 500px;
 	height: auto;
 	margin: 10px;
