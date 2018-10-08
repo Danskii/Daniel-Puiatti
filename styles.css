@@ -253,173 +253,52 @@ blockquote {
 
 /*start photo gallery index page*/
 
-
-.photoGalleryWrapperToronto,
-.photoGalleryWrapperAlgoquin {
-	box-sizing: border-box;
+#photoGalleryIndexIntroText {
+	text-align: center;
+	margin: 15px;
 }
 
-.photoGalleryWrapperToronto,
-.photoGalleryWrapperAlgoquin {
-	font-family: Arial,"Hiragino Kaku Gothic Pro W3",Meiryo,sans-serif;
-	background-color: #333;
-	color: #fff;
+.imageGalleryIndexTitle {
 	text-align: center;
 }
 
-	.photoGalleryWrapperToronto,
-	.photoGalleryWrapperAlgoquin > h2 {
-		font-size: 3rem;
-		padding: 20px;
-	}
+.photoGalleryContainer {
+	margin: auto;
+	max-width: 1200px;
+}
 
-		.photoGalleryWrapperToronto >
-		.flexbox {
-			display: -webkit-flex;
-			display: flex;
-			-webkit-flex-direction: column;
-			flex-direction: column;
-			-webkit-flex-wrap: wrap;
-			flex-wrap: wrap;
-			height: 410vw;
-		}
+.responsive-image {
+	max-width: 100%;
+}
 
-	.photoGalleryWrapperAlgoquin > .flexbox {
-		display: -webkit-flex;
+.cell {
+	margin: 1rem;
+}
+
+.cell img {
+	display: block;
+}
+
+@media screen and (min-width: 600px) {
+	.grid {
 		display: flex;
-		-webkit-flex-direction: column;
-		flex-direction: column;
-		-webkit-flex-wrap: wrap;
 		flex-wrap: wrap;
-		height: 210vw;
+		flex-direction: row;
 	}
 
-		.photoGalleryWrapperAlgoquin >
-		.flexbox:hover img {
-			opacity: 0.28;
-		}
-
-	.photoGalleryWrapperToronto >  .flexbox:hover img {
-		opacity: 0.28;
-	}
-
-
-	.photoGalleryWrapperAlgoquin > .flexbox .item {
-		position: relative;
-		width: 33.33%;
-	}
-
-	.photoGalleryWrapperToronto > .flexbox .item {
-		position: relative;
-		width: 33.33%;
-	}
-
-	.photoGalleryWrapperAlgoquin > .flexbox .item img {
-		width: 100%;
-		display: block;
-		transition: all .8s;
-	}
-
-	.photoGalleryWrapperToronto > .flexbox .item img {
-		width: 100%;
-		display: block;
-		transition: all .8s;
-	}
-
-	.photoGalleryWrapperAlgoquin >
-	.flexbox .item .title {
-		position: absolute;
-		top: 48%;
-		left: 0;
-		width: 100%;
-		padding: 0 3%;
-		font-size: 30px;
-		text-shadow: 0 0 8px rgba(0, 0, 0, 0.42);
-	}
-
-	.photoGalleryWrapperToronto >
-	.flexbox .item .title {
-		position: absolute;
-		top: 48%;
-		left: 0;
-		width: 100%;
-		padding: 0 3%;
-		font-size: 30px;
-		text-shadow: 0 0 8px rgba(0, 0, 0, 0.42);
-	}
-	.photoGalleryWrapperAlgoquin >
-	.flexbox .item:hover img {
-		opacity: 1;
-	}
-	.photoGalleryWrapperToronto >
-	.flexbox .item:hover img {
-		opacity: 1;
-	}
-
-@media (max-width: 860px) {
-	.photoGalleryWrapperAlgoquin > .flexbox {
-		height: 220vw;
-	}
-
-	.photoGalleryWrapperToronto > .flexbox {
-		height: 220vw;
-	}
-
-	.photoGalleryWrapperAlgoquin > .flexbox .item {
-		width: 50%;
-	}
-
-	.photoGalleryWrapperToronto > .flexbox .item {
-		width: 50%;
+	.cell {
+		width: calc(50% - 2rem);
 	}
 }
 
-@media (max-width: 667px) {
-	.photoGalleryWrapperAlgoquin > .flexbox {
-		height: auto;
-	}
-	.photoGalleryWrapperToronto >
-	.flexbox .item {
-		width: 100%;
-	}
-	.photoGalleryWrapperAlgoquin >
-	.flexbox {
-		height: auto;
-	}
-	.photoGalleryWrapperToronto >
-	.flexbox .item {
-		width: 100%;
+@media screen and (min-width: 1000px) {
+	.cell {
+		width: calc(33.3333% - 2rem);
 	}
 }
 
+/*end photo gallery index page*/
 
-.PhotoGalleryContainer {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-}
+/*start photo gallery page*/
 
-.PhotoGalleryContainer img {
-	width: 500px;
-	height: auto;
-	margin: 10px;
-}
-
-.PhotoGalleryContainer figure figcaption {
-		text-align: center;
-
-}
-
-#photoGalleryIndex {
-	text-align: center;
-	padding: 20px;
-}
-
-	#photoGalleryIndex > h2 {
-	margin: 5px;
-	}
-
-	#photoGalleryIndex > p {
-		margin: 5px;
-		padding: 5px;
-	}
+/*end photo gallery page*/
