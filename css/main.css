@@ -2682,6 +2682,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   height: 100%;
   transition: .5s ease;
   backface-visibility: hidden;
+
 }
 
 .middle {
@@ -2708,6 +2709,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 .single-portfolio {
   border-radius: 5px;
 }
+
+	.single-portfolio .relative .thumb {
+		border: 2px solid #1f1a1ad4;
+	}
 
 .single-portfolio:hover .thumb .overlay-bg {
   opacity: .85;
@@ -3971,6 +3976,7 @@ dl.accordion.time-line:before {
 
 .single-post-area .thumb .overlay-bg {
   background: rgba(0, 0, 0, 0.8);
+
 }
 
 .single-post-area .navigation-area {
