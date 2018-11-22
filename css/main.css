@@ -3536,7 +3536,8 @@ dl.accordion.time-line:before {
 }
 
 .post-content-area .single-post .feature-img img {
-  width: 100%;
+	width: 100%;
+	border: 1px solid black;
 }
 
 .post-content-area .single-post .posts-title h3 {
@@ -3548,13 +3549,15 @@ dl.accordion.time-line:before {
 }
 
 .post-content-area .single-post .primary-btn {
-  background: #fff !important;
-  color: #222 !important;
-  -webkit-transition: all 0.3s ease 0s;
-  -moz-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
-  border-radius: 0px !important;
+	text-align: center;
+	width: 100%;
+	background: #0ccf52 !important;
+	color: #fff !important;
+	-webkit-transition: all 0.3s ease 0s;
+	-moz-transition: all 0.3s ease 0s;
+	-o-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
+	border-radius: 0px !important;
 }
 
 .post-content-area .single-post .primary-btn:hover {
