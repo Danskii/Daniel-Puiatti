@@ -26,6 +26,7 @@ Created:
 7.  Blog Page Style
 8.  Contact Page Style
 9.  Footer Style
+10. Dan's Custom Styles
 
 -------------------------------------------------------------------*/
 /* =================================== */
@@ -3935,7 +3936,7 @@ dl.accordion.time-line:before {
 /*============ Start Blog Single Styles  =============*/
 .single-post-area {
   padding-top: 80px;
-  padding-bottom: 80px;
+
 }
 
 .single-post-area .meta-details {
@@ -4225,7 +4226,13 @@ dl.accordion.time-line:before {
   background: transparent;
   border-color: #8490ff !important;
   color: #8490ff !important;
+
 }
+
+
+
+
+
 
 /*============ End Blog Single Styles  =============*/
 /* =================================== */
@@ -4316,6 +4323,10 @@ dl.accordion.time-line:before {
   color: #8490ff;
   margin-right: 30px;
 }
+
+
+
+
 
 /* =================================== */
 /*  Footer Styles
@@ -4492,3 +4503,50 @@ dl.accordion.time-line:before {
 }
 
 /*-------- end footer Area -------------*/
+
+
+/* =================================== */
+/*  Dan's Custom Styles
+/* =================================== */
+
+
+/*-------- begin Dan's custom styles Area -------------*/
+
+
+.blogBodyCopyWrapper p,
+.blogBodyCopyWrapper .quotes,
+.blogBodyCopyWrapper blockquote {
+	position: relative;
+	font-size: 1.05rem;
+	letter-spacing: .013rem;
+	line-height: 2;
+	margin: 32px auto;
+	padding-left: 13px;
+	padding-right: 13px;
+	word-break: break-word;
+}
+
+.blogBodyCopyWrapper img {
+	max-width: 100%;
+	border: 1px solid black;
+}
+
+.blogBodyCopyWrapper ul,
+.blogBodyCopyWrapper ol {
+	color: #000000cf;
+	font-size: 1rem;
+	line-height: 31px;
+}
+
+.post-content-area .sidebar-widgets {
+display: none;
+}
+
+@media only screen and (min-device-width : 768px) {
+	.blogBodyCopyWrapper p {
+		margin: 10px 10px 10px 10px;
+		padding: 10px 110px 10px 140px;
+		text-align: left;
+	}
+}
+	/*-------- end Dan's custom styles Area -------------*/
