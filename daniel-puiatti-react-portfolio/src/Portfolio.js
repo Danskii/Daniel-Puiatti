@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './Styles.css';
 import Nav from 'react-bootstrap/Nav';
+import Jumbotron from 'react-bootstrap/Jumbotron';
 
 
 
@@ -13,16 +14,16 @@ class Portfolio extends Component {
     <Nav.Link eventKey="1" href="/home">Daniel Puiatti</Nav.Link>
   </Nav.Item>
   <Nav.Item>
-    <Nav.Link eventKey="2" href="/portfolio">Portfolio</Nav.Link>
+    <Nav.Link eventKey="2" href="/portfolio">portfolio</Nav.Link>
   </Nav.Item>
   <Nav.Item>
-    <Nav.Link eventKey="3">Blog</Nav.Link>
+    <Nav.Link eventKey="3">blog</Nav.Link>
   </Nav.Item>
   <Nav.Item>
-    <Nav.Link eventKey="4">Contact</Nav.Link>
+    <Nav.Link eventKey="4">contact</Nav.Link>
   </Nav.Item>
-
 </Nav>
+
       </div>
     );
   }
