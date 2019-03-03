@@ -12,3 +12,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+
+.Home h1 {
+  margin-bottom: 1.5rem;
+}
+
+.Home p {
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+  line-height: 2rem;
+}
+
+.danielPuiattiProfileImage img {
+  width: 270px;
+  height: auto;
+  float: left;
+  margin: 1rem;
+}

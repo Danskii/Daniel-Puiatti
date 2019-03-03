@@ -39,7 +39,7 @@ class Navigation extends Component {
   <Nav.Item>
   <Link to="/contact"><Nav.Link href="/contact">Contact</Nav.Link></Link>
   </Nav.Item>
-</Nav>;
+</Nav>
       <Route exact path="/" component={Home}/>
       <Route path="/portfolio" component={Portfolio}/>
       <Route path="/blog" component={Blog}/>
