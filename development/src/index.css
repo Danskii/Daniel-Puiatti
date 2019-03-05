@@ -13,6 +13,9 @@ code {
     monospace;
 }
 
+.Home {
+  background: #4c4646;
+}
 
 .Home h1 {
   margin-bottom: 1.5rem;
@@ -24,9 +27,66 @@ code {
   line-height: 2rem;
 }
 
+.Home .jumbotron {
+  box-shadow: -3px 3px 2px 1px #9aa2ab;
+
+}
+
 .danielPuiattiProfileImage img {
   width: 270px;
   height: auto;
   float: left;
-  margin: 1rem;
 }
+
+
+.PortfolioThumbnails img {
+  margin: 1rem 0 1rem 0;
+}
+
+@media (min-width:320px) {
+  .danielPuiattiProfileImage img {
+
+    width: 290px;
+  }
+  }
+
+  @media (min-width:375px) {
+    .danielPuiattiProfileImage img {
+      margin: 1rem 1.5rem 1rem 1.5rem;
+      width: 300px;
+    }
+    }
+
+    @media (min-width:425px) {
+      .danielPuiattiProfileImage img {
+        margin: 1rem 1.5rem 1rem 3rem;
+      }
+      }
+
+      @media (min-width:768px) {
+        .danielPuiattiProfileImage img {
+          margin: 4rem 3rem 7rem 0rem;
+        }
+        }
+    
+
+        @media (min-width:1024px) {
+          .danielPuiattiProfileImage img {
+            margin: 1rem 4rem 1rem 1.5rem;
+          }
+          }
+
+      @media (min-width:1440px) {
+        .danielPuiattiProfileImage img {
+          margin: 1rem 1.5rem 1rem 1.5rem;
+          margin: 1rem 4rem 1rem 1.5rem;
+        }
+        }
+
+
+
+
+
+
+
+  

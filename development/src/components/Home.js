@@ -9,6 +9,7 @@ import {
   Route,
   Link
 } from 'react-router-dom';
+import PortfolioThumbnails from '../components/PortfolioThumbnails';
 
 
 class Home extends Component {
@@ -23,29 +24,10 @@ class Home extends Component {
     <h1>Hi, I'm Dan Puiatti</h1>
     <p>I help people and businesses use digital media to accomplish goals.</p>
     <p>I have been fortunate to to have had direct experience with nearly every aspect of digital media: from web development to online advertising, social media to SEO, copywriting to design.</p>
-  <p>Please take a moment to explore some of my <Link to="/portfolio">digital media projects</Link>.</p>
+  <p>Thanks for taking the time to visit and please take a moment to explore some of my <Link to="/portfolio">digital media projects</Link>.</p>
   </Container>
 </Jumbotron>
-<Container>
-  <Row>
-    <Col>
-      <Image src="https://via.placeholder.com/150" thumbnail />
-    </Col>
-    <Col>
-      <Image src="https://via.placeholder.com/150" thumbnail />
-    </Col>
-    <Col>
-      <Image src="https://via.placeholder.com/150" thumbnail />
-    </Col>
-    <Col>
-      <Image src="https://via.placeholder.com/150" thumbnail />
-    </Col>    <Col>
-      <Image src="https://via.placeholder.com/150" thumbnail />
-    </Col>
-
-
-  </Row>
-</Container>;
+<PortfolioThumbnails />
       </div>
     );
   }
