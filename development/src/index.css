@@ -19,18 +19,7 @@ code {
 
 .Home h1 {
   margin-bottom: 1.5rem;
-  font: bold 300% Consolas, Monaco, monospace;
-	border-right: .1em solid black;
-	width: 16.5em; 
-	width: 21ch;
-
-	white-space: nowrap;
-	overflow: hidden;
-	-webkit-animation: typing 2s steps(21, end),
-	           blink-caret .5s step-end infinite alternate;
-  
 }
-
 
 .Home p {
   margin-bottom: 1rem;
@@ -39,17 +28,18 @@ code {
 }
 
 .Home .introParagraphOne {
-  margin-bottom: 1rem;
-  font-size: 1.1rem;
-  line-height: 2rem;
+  -webkit-animation: slide-in-fwd-bottom 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  animation: slide-in-fwd-bottom 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
 .Home .introParagraphTwo {
-  
+  -webkit-animation: slide-in-fwd-bottom 3.1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  animation: slide-in-fwd-bottom 3.1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
 .Home .introParagraphThree {
-  
+  -webkit-animation: slide-in-fwd-bottom 3.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  animation: slide-in-fwd-bottom 3.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
 .Home .jumbotron {
@@ -113,6 +103,7 @@ code {
   }
 }
 
+
 @media (min-width:320px) {
   .danielPuiattiProfileImage img {
 
@@ -143,14 +134,72 @@ code {
         @media (min-width:1024px) {
           .danielPuiattiProfileImage img {
             margin: 1rem 4rem 1rem 1.5rem;
+            
           }
+          
+.Home h1 {
+  font: bold 300% Consolas, Monaco, monospace;
+	border-right: .1em solid black;
+	width: 16.5em; 
+	width: 21ch;
+
+	white-space: nowrap;
+	overflow: hidden;
+	-webkit-animation: typing 1s steps(21, end),
+	           blink-caret .5s step-end infinite alternate;
+  
+}
+
+
+.Home .introParagraphOne {
+
+}
+
+.Home .introParagraphTwo {
+  
+}
+
+.Home .introParagraphThree {
+
+}
+
+
           }
 
       @media (min-width:1440px) {
         .danielPuiattiProfileImage img {
           margin: 1rem 1.5rem 1rem 1.5rem;
           margin: 1rem 4rem 1rem 1.5rem;
+
+          
         }
+
+        
+.Home h1 {
+  font: bold 300% Consolas, Monaco, monospace;
+	border-right: .1em solid black;
+	width: 16.5em; 
+	width: 21ch;
+
+	white-space: nowrap;
+	overflow: hidden;
+	-webkit-animation: typing 1s steps(21, end),
+	           blink-caret .5s step-end infinite alternate;
+  
+}
+.9
+
+.Home .introParagraphOne {
+
+}
+
+.Home .introParagraphTwo {
+  
+}
+
+.Home .introParagraphThree {
+  
+}
         }
 
 
