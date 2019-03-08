@@ -13,37 +13,50 @@ code {
     monospace;
 }
 
-.Home {
-  background: #4c4646;
+.Home .jumbotron {
+  background-color: #21e6d8;
 }
 
 .Home h1 {
   margin-bottom: 1.5rem;
+  color: white;
+  text-shadow: 2px 2px #669bd6;
 }
 
 .Home p {
   margin-bottom: 1rem;
   font-size: 1.1rem;
   line-height: 2rem;
+ color: white;
+
 }
 
 .Home .introParagraphOne {
+  background: #1b9f0c;
   -webkit-animation: slide-in-fwd-bottom 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
   animation: slide-in-fwd-bottom 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  z-index: 0;
+  position: relative;
 }
 
 .Home .introParagraphTwo {
+  background: #1b9f0c;
   -webkit-animation: slide-in-fwd-bottom 3.1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
   animation: slide-in-fwd-bottom 3.1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  z-index: 0;
+  position: relative;
 }
 
 .Home .introParagraphThree {
+  background: #1b9f0c;
   -webkit-animation: slide-in-fwd-bottom 3.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
   animation: slide-in-fwd-bottom 3.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  z-index: 0;
+  position: relative;
 }
 
 .Home .jumbotron {
-  box-shadow: -3px 3px 2px 1px #9aa2ab;
+  box-shadow: -3px 3px 2px 1px #298eff;
 
 }
 
@@ -51,6 +64,8 @@ code {
   width: 270px;
   height: auto;
   float: left;
+  position: relative;
+  z-index: 1;
 }
 
 
@@ -106,7 +121,8 @@ code {
 
 @media (min-width:320px) {
   .danielPuiattiProfileImage img {
-
+    position: relative;
+    z-index: 1;
     width: 290px;
   }
   }
@@ -134,12 +150,13 @@ code {
         @media (min-width:1024px) {
           .danielPuiattiProfileImage img {
             margin: 1rem 4rem 1rem 1.5rem;
-            
+            position: relative;
+            z-index: 1;
           }
           
 .Home h1 {
   font: bold 300% Consolas, Monaco, monospace;
-	border-right: .1em solid black;
+	border-right: .1em solid white;
 	width: 16.5em; 
 	width: 21ch;
 
@@ -152,15 +169,18 @@ code {
 
 
 .Home .introParagraphOne {
-
+  z-index: 0;
+  position: relative;
 }
 
 .Home .introParagraphTwo {
-  
+  z-index: 0;
+  position: relative;
 }
 
 .Home .introParagraphThree {
-
+  z-index: 0;
+  position: relative;
 }
 
 
@@ -170,14 +190,15 @@ code {
         .danielPuiattiProfileImage img {
           margin: 1rem 1.5rem 1rem 1.5rem;
           margin: 1rem 4rem 1rem 1.5rem;
-
+          position: relative;
+          z-index: 1;
           
         }
 
         
 .Home h1 {
   font: bold 300% Consolas, Monaco, monospace;
-	border-right: .1em solid black;
+	border-right: .1em solid white;
 	width: 16.5em; 
 	width: 21ch;
 
@@ -190,15 +211,18 @@ code {
 .9
 
 .Home .introParagraphOne {
-
+  z-index: 0;
+  position: relative;
 }
 
 .Home .introParagraphTwo {
-  
+  z-index: 0;
+  position: relative;
 }
 
 .Home .introParagraphThree {
-  
+  z-index: 0;
+  position: relative;
 }
         }
 
