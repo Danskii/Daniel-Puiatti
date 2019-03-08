@@ -13,6 +13,29 @@ code {
     monospace;
 }
 
+.Home .nav-link {
+  font-size: 1.4rem;
+      color: #1a5e63;
+}
+
+
+.Navigation .nav-tabs .nav-link {
+  color: #1A5E63;;
+  font-size: 1.4rem;
+  border: unset;
+letter-spacing: 2px;
+
+}
+
+
+.Navigation .nav-tabs .nav-link.active {
+  color: white;
+  background-color: #80deea;
+  font-size: 1.4rem;
+  border: unset;
+  text-shadow: 2px 1px #1A5E63;
+}
+ 
 .Home .jumbotron {
   background-color: #80deea; 
 }
@@ -25,7 +48,7 @@ code {
 
 .Home p {
   margin-bottom: 1rem;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   line-height: 2rem;
  /* color: white; */
 
@@ -38,24 +61,24 @@ code {
 .Home .introParagraphOne {
    background: #1A5E63;
    color: white;
-  -webkit-animation: slide-in-fwd-bottom 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-  animation: slide-in-fwd-bottom 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  -webkit-animation: slide-in-fwd-bottom 2.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  animation: slide-in-fwd-bottom 2.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
   z-index: 0;
   position: relative;
 }
 
 .Home .introParagraphTwo {
 
-  -webkit-animation: slide-in-fwd-bottom 3.1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-  animation: slide-in-fwd-bottom 3.1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  -webkit-animation: slide-in-fwd-bottom 2.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  animation: slide-in-fwd-bottom 2.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
   z-index: 0;
   position: relative;
 }
 
 .Home .introParagraphThree {
 
-  -webkit-animation: slide-in-fwd-bottom 3.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-  animation: slide-in-fwd-bottom 3.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  -webkit-animation: slide-in-fwd-bottom 2.9s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  animation: slide-in-fwd-bottom 2.9s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
   z-index: 0;
   position: relative;
 }
@@ -188,6 +211,12 @@ code {
   position: relative;
 }
 
+.PortfolioThumbnails img {
+  box-shadow: 
+  0 0 5px 1px  #80deea,
+  0 0 6px 1px  #1a5e63;
+  ;
+}
 
           }
 
@@ -206,7 +235,6 @@ code {
 	border-right: .1em solid white;
 	width: 16.5em; 
 	width: 21ch;
-
 	white-space: nowrap;
 	overflow: hidden;
 	-webkit-animation: typing 1s steps(21, end),
