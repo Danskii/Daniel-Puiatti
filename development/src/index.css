@@ -14,25 +14,30 @@ code {
 }
 
 .Home .jumbotron {
-  background-color: #21e6d8;
+  background-color: #21e6d8; 
 }
 
 .Home h1 {
   margin-bottom: 1.5rem;
-  color: white;
-  text-shadow: 2px 2px #669bd6;
+  color: #1A5E63;
+  text-shadow: 1.5px 1.5px #dfe0db;
 }
 
 .Home p {
   margin-bottom: 1rem;
   font-size: 1.1rem;
   line-height: 2rem;
- color: white;
+ /* color: white; */
 
 }
 
+.Home .introParagraphWrapper {
+  /* background:  #669bd6; */
+}
+
 .Home .introParagraphOne {
-  background: #1b9f0c;
+   background: #1A5E63;
+   color: white;
   -webkit-animation: slide-in-fwd-bottom 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
   animation: slide-in-fwd-bottom 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
   z-index: 0;
@@ -40,7 +45,7 @@ code {
 }
 
 .Home .introParagraphTwo {
-  background: #1b9f0c;
+
   -webkit-animation: slide-in-fwd-bottom 3.1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
   animation: slide-in-fwd-bottom 3.1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
   z-index: 0;
@@ -48,7 +53,7 @@ code {
 }
 
 .Home .introParagraphThree {
-  background: #1b9f0c;
+
   -webkit-animation: slide-in-fwd-bottom 3.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
   animation: slide-in-fwd-bottom 3.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
   z-index: 0;
@@ -56,7 +61,7 @@ code {
 }
 
 .Home .jumbotron {
-  box-shadow: -3px 3px 2px 1px #298eff;
+  box-shadow: -3px 3px 6px 1px #1a5e63;
 
 }
 
