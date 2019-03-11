@@ -29,13 +29,13 @@ class PortfolioThumbnails extends Component {
     <Image src={require('../images/gradient-background-generator.jpg')} thumbnail fluid />
     </Col>
     <Col xs={12} sm={4} md={4} lg={3}>
-    <Image src="https://via.placeholder.com/350?text=outpostmagazine" thumbnail fluid />
+    <Image src={require('../images/making-pdfs-aoda-compliant.jpg')} thumbnail fluid />
     </Col>
     <Col xs={12} sm={4} md={4} lg={3}>
-    <Image src="https://via.placeholder.com/350?text=opxpeditions" thumbnail fluid />
+    <Image src={require('../images/outpost-magazine-shop.jpg')} thumbnail fluid />
     </Col>
     <Col xs={12} sm={4} md={4} lg={3}>
-    <Image src="https://via.placeholder.com/350?text=website" thumbnail fluid />
+    <Image src={require('../images/daniel-puiatti-portfolio.jpg')} thumbnail fluid />
     </Col>
   </Row>
 </Container>;

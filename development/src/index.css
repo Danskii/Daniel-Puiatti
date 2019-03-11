@@ -13,6 +13,10 @@ code {
     monospace;
 }
 
+/*
+* === HOME PAGE ===
+*/
+
 .Home .nav-link {
   font-size: 1.4rem;
       color: #1a5e63;
@@ -97,6 +101,11 @@ letter-spacing: 2px;
 }
 
 
+/*
+* === PORTFOLIO THUMBNAIL COMPONENT ===
+*/
+
+
 .PortfolioThumbnails .container {
   -webkit-animation: slide-in-fwd-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
   animation: slide-in-fwd-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
@@ -105,6 +114,20 @@ letter-spacing: 2px;
 .PortfolioThumbnails img {
   margin: 1rem 0 1rem 0;
 
+}
+
+/*
+* === PORTFOLIO PAGE ===
+*/
+
+
+.Portfolio .jumbotron {
+  clear: both;
+}
+
+.Portfolio .jumbotron img{
+float: left;
+width: 300px;
 }
 
 /**
@@ -241,7 +264,6 @@ letter-spacing: 2px;
 	           blink-caret .5s step-end infinite alternate;
   
 }
-.9
 
 .Home .introParagraphOne {
   z-index: 0;

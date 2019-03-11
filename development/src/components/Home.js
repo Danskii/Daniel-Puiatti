@@ -10,7 +10,7 @@ import {
   Link
 } from 'react-router-dom';
 import PortfolioThumbnails from '../components/PortfolioThumbnails';
-
+import posed from 'react-pose'
 
 class Home extends Component {
   render() {
@@ -24,7 +24,7 @@ class Home extends Component {
     <h1>Hi, I'm Dan Puiatti</h1>
     <div className="introParagraphWrapper">
     <p className="introParagraphOne">I help people and businesses use digital media to accomplish goals.</p>
-    <p className="introParagraphTwo">I have been fortunate to to have had direct experience with nearly every aspect of digital media: from web development to online advertising, social media to SEO, copywriting to design.</p>
+    <p className="introParagraphTwo">I have been fortunate to  have had direct experience with nearly every aspect of digital media: from web development to online advertising, social media to SEO, copywriting to design.</p>
   <p className="introParagraphThree">Thanks for taking the time to visit and please take a moment to explore some of my <Link to="/portfolio">digital media projects</Link>.</p>
   </div>
   </Container>

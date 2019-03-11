@@ -10,6 +10,7 @@ import {
   Link
 } from 'react-router-dom';
 import '../src/index.css';
+import posed from 'react-pose';
 
 class App extends Component {
   render() {
