@@ -12,26 +12,26 @@ class Portfolio extends Component {
 <Jumbotron fluid>
   <Container>
   <Image src={require('../images/professionally-speaking.jpg')} thumbnail  />
+
+  <div className="portfolioJumbotronContentWrapper">
     <h3>Professionally Speaking</h3>
     <p>
     Online magazine of the Ontario College of Teachers.
     </p>
-    
-    
     <ul>
       <li>Developed the content structure, markup, stylesheets and JavaScript for the online edition of the magazine from scratch.</li>
       <li>Site was developed with accessibility, speed and browser compatibility as the focus.</li>
       <li>Supervised a team of developers and content editors during development.</li>
       <li>Over 200 pages of content were manually built over a year.</li>
       <li>No frameworks or libraries used.</li>
-
 </ul>
-
+</div>
   </Container>
 </Jumbotron>
 <Jumbotron fluid>
   <Container>
   <Image src={require('../images/daniel-puiatti-photography.jpg')} thumbnail  />
+  <div className="portfolioJumbotronContentWrapper">
     <h3>Daniel Puiatti Photography</h3>
     <p>
     Full featured photography website. All photos taken and edited by myself.
@@ -45,11 +45,13 @@ class Portfolio extends Component {
       
 
 </ul>
+</div>
   </Container>
 </Jumbotron>
 <Jumbotron fluid>
   <Container>
   <Image src={require('../images/toronto-bike-fixit-map.jpg')} thumbnail  />
+  <div className="portfolioJumbotronContentWrapper">
     <h3>Toronto Bike Fixit Map</h3>
     <p>
     Open source map of free repair stations in the Greater Toronto Area.
@@ -60,11 +62,13 @@ class Portfolio extends Component {
       <li>Map developed to facilitate quick, seamless updates.</li>
       <li>Social sharing integrated as NPM package.</li>
     </ul>
+    </div>
   </Container>
 </Jumbotron>
 <Jumbotron fluid>
   <Container>
   <Image src={require('../images/danskii.jpg')} thumbnail  />
+  <div className="portfolioJumbotronContentWrapper">
     <h3>Danskii</h3>
     <p>
     Clothing and social media lifestyle brand based out of Toronto, Canada.
@@ -75,14 +79,16 @@ class Portfolio extends Component {
         <li>All elements hand coded: CSS, HTML, JavaScript.</li>
         <li>All graphics designed by myself.</li>
       </ul>
+      </div>
   </Container>
 </Jumbotron>
 <Jumbotron fluid>
   <Container>
   <Image src={require('../images/gradient-background-generator.jpg')} thumbnail  />
+  <div className="portfolioJumbotronContentWrapper">
     <h3>Gradient Generator</h3>
     <p>
-    Free web application to help you generate cool looking gradients
+    Free web application to help you generate cool looking gradients.
     </p>
     <ul>
       <li>Interactive webapp built from scratch from HTML, CSS and JavaScript.</li>
@@ -90,11 +96,13 @@ class Portfolio extends Component {
       <li>Provides functional gradients that can be used for web design.</li>
       <li>Built in one-hour.</li>
     </ul>
+    </div>
   </Container>
 </Jumbotron>
 <Jumbotron fluid>
   <Container>
       <Image src={require('../images/making-pdfs-aoda-compliant.jpg')} thumbnail  />
+      <div className="portfolioJumbotronContentWrapper">
     <h3>Acessible PDFs</h3>
     <p>
     An easy to follow guide on how you can make your PDFs accessible.
@@ -106,11 +114,13 @@ class Portfolio extends Component {
       <li>Layout provides optimal read experience for technically dense content.</li>
    
     </ul>
+    </div>
   </Container>
 </Jumbotron>
 <Jumbotron fluid>
   <Container>
       <Image src={require('../images/outpost-magazine-shop.jpg')} thumbnail  />
+      <div className="portfolioJumbotronContentWrapper">
     <h3>The Outpost Shop</h3>
     <p>
     Ecommerce platform for travel magazine.
@@ -121,11 +131,13 @@ class Portfolio extends Component {
       <li>Developed back-issues section to showcase each edition and optimize SEO.</li>
       <li>Integrated payment system to accept AMEX, MasterCard, PayPal and VISA.</li>
     </ul>
+    </div>
   </Container>
 </Jumbotron>
 <Jumbotron fluid>
   <Container>
       <Image src={require('../images/daniel-puiatti-portfolio.jpg')} thumbnail  />
+      <div className="portfolioJumbotronContentWrapper">
     <h3>Daniel Puiatti's Portfolio</h3>
     <p>
    That's this website! Is that cheating?
@@ -136,6 +148,7 @@ class Portfolio extends Component {
       <li>Is Fast!</li>
       <li>You are already on it!</li>
     </ul>
+    </div>
   </Container>
 </Jumbotron>
       </div>

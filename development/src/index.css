@@ -14,39 +14,40 @@ code {
 }
 
 /*
-* === HOME PAGE ===
+* === Navigation Component ===
 */
 
 .Home .nav-link {
   font-size: 1.4rem;
-      color: #1a5e63;
+  color: #1a5e63;
 }
-
 
 .Navigation .nav-tabs .nav-link {
-  color: #1A5E63;;
+  color: #1a5e63;
   font-size: 1.4rem;
   border: unset;
-letter-spacing: 2px;
-
+  letter-spacing: 2px;
 }
-
 
 .Navigation .nav-tabs .nav-link.active {
   color: white;
   background-color: #80deea;
   font-size: 1.4rem;
   border: unset;
-  text-shadow: 2px 1px #1A5E63;
+  text-shadow: 2px 1px #1a5e63;
 }
- 
+
+/*
+* === Home Page ===
+*/
+
 .Home .jumbotron {
-  background-color: #80deea; 
+  background-color: #80deea;
 }
 
 .Home h1 {
   margin-bottom: 1.5rem;
-  color: #1A5E63;
+  color: #1a5e63;
   text-shadow: 1.5px 1.5px #dfe0db;
 }
 
@@ -54,8 +55,7 @@ letter-spacing: 2px;
   margin-bottom: 1rem;
   font-size: 1.2rem;
   line-height: 2rem;
- /* color: white; */
-
+  /* color: white; */
 }
 
 .Home .introParagraphWrapper {
@@ -63,33 +63,33 @@ letter-spacing: 2px;
 }
 
 .Home .introParagraphOne {
-   background: #1A5E63;
-   color: white;
-  -webkit-animation: slide-in-fwd-bottom 2.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-  animation: slide-in-fwd-bottom 2.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  background: #1a5e63;
+  color: white;
+  -webkit-animation: slide-in-fwd-bottom 2.5s
+    cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-in-fwd-bottom 2.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
   z-index: 0;
   position: relative;
 }
 
 .Home .introParagraphTwo {
-
-  -webkit-animation: slide-in-fwd-bottom 2.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-  animation: slide-in-fwd-bottom 2.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  -webkit-animation: slide-in-fwd-bottom 2.7s
+    cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-in-fwd-bottom 2.7s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
   z-index: 0;
   position: relative;
 }
 
 .Home .introParagraphThree {
-
-  -webkit-animation: slide-in-fwd-bottom 2.9s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-  animation: slide-in-fwd-bottom 2.9s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  -webkit-animation: slide-in-fwd-bottom 2.9s
+    cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-in-fwd-bottom 2.9s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
   z-index: 0;
   position: relative;
 }
 
 .Home .jumbotron {
   box-shadow: -3px 3px 6px 1px #1a5e63;
-
 }
 
 .danielPuiattiProfileImage img {
@@ -100,34 +100,188 @@ letter-spacing: 2px;
   z-index: 1;
 }
 
-
 /*
 * === PORTFOLIO THUMBNAIL COMPONENT ===
 */
 
-
 .PortfolioThumbnails .container {
-  -webkit-animation: slide-in-fwd-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-  animation: slide-in-fwd-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  -webkit-animation: slide-in-fwd-bottom 0.5s
+    cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-in-fwd-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 
 .PortfolioThumbnails img {
   margin: 1rem 0 1rem 0;
-
 }
 
 /*
 * === PORTFOLIO PAGE ===
 */
 
-
-.Portfolio .jumbotron {
-  clear: both;
+.Portfolio .jumbotron  {
+  background-color: white;
 }
 
-.Portfolio .jumbotron img{
-float: left;
-width: 300px;
+.Portfolio .jumbotron img {
+  width: 300px;
+}
+
+.Portfolio .portfolioJumbotronContentWrapper {
+  overflow: auto;
+}
+
+/*
+* === RESPONSIVE DESIGN ===
+*/
+
+@media (min-width: 320px) {
+  /*
+* — Home page @ 320px  —
+*/
+  .danielPuiattiProfileImage img {
+    position: relative;
+    z-index: 1;
+    width: 290px;
+  }
+}
+
+@media (min-width: 375px) {
+  /*
+* — Home page @ 375px  —
+*/
+  .danielPuiattiProfileImage img {
+    margin: 1rem 1.5rem 1rem 1.5rem;
+    width: 300px;
+  }
+}
+
+@media (min-width: 425px) {
+  /*
+* — Home page @ 425px  —
+*/
+  .danielPuiattiProfileImage img {
+    margin: 1rem 1.5rem 1rem 3rem;
+  }
+}
+
+@media (min-width: 768px) {
+  /*
+* — Home page @ 768px  —
+*/
+
+  .danielPuiattiProfileImage img {
+    margin: 4rem 3rem 7rem 0rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  /*
+* — Home page @ 1024px  —
+*/
+
+  .danielPuiattiProfileImage img {
+    margin: 1rem 4rem 1rem 1.5rem;
+    position: relative;
+    z-index: 1;
+  }
+
+  .Home h1 {
+    font: bold 300% Consolas, Monaco, monospace;
+    border-right: 0.1em solid white;
+    width: 16.5em;
+    width: 21ch;
+
+    white-space: nowrap;
+    overflow: hidden;
+    -webkit-animation: typing 1s steps(21, end),
+      blink-caret 0.5s step-end infinite alternate;
+  }
+
+  .Home .introParagraphOne {
+    z-index: 0;
+    position: relative;
+  }
+
+  .Home .introParagraphTwo {
+    z-index: 0;
+    position: relative;
+  }
+
+  .Home .introParagraphThree {
+    z-index: 0;
+    position: relative;
+  }
+
+  .PortfolioThumbnails img {
+    box-shadow: 0 0 5px 1px #80deea, 0 0 6px 1px #1a5e63;
+  }
+
+  /*
+* — Portfolio page @ 1024px  —
+*/
+
+  .Portfolio .jumbotron img {
+    float: left;
+  }
+
+  .Portfolio .portfolioJumbotronContentWrapper ul li,
+  .Portfolio .portfolioJumbotronContentWrapper h3,
+  .Portfolio .portfolioJumbotronContentWrapper p {
+    margin-left: 20px;
+  }
+}
+
+@media (min-width: 1440px) {
+  /*
+* — Home page @ 1440px  —
+*/
+
+  .danielPuiattiProfileImage img {
+    margin: 1rem 1.5rem 1rem 1.5rem;
+    margin: 1rem 4rem 1rem 1.5rem;
+    position: relative;
+    z-index: 1;
+  }
+
+  .Home h1 {
+    font: bold 300% Consolas, Monaco, monospace;
+    border-right: 0.1em solid white;
+    width: 16.5em;
+    width: 21ch;
+    white-space: nowrap;
+    overflow: hidden;
+    -webkit-animation: typing 1s steps(21, end),
+      blink-caret 0.5s step-end infinite alternate;
+  }
+
+  .Home .introParagraphOne {
+    z-index: 0;
+    position: relative;
+  }
+
+  .Home .introParagraphTwo {
+    z-index: 0;
+    position: relative;
+  }
+
+  .Home .introParagraphThree {
+    z-index: 0;
+    position: relative;
+  }
+
+  /*
+* — Portfolio page @ 1440px  —
+*/
+
+  .Portfolio .jumbotron img {
+    float: left;
+  }
+
+  .Portfolio .portfolioJumbotronContentWrapper ul li,
+  .Portfolio .portfolioJumbotronContentWrapper h3,
+  .Portfolio .portfolioJumbotronContentWrapper p {
+    margin-left: 20px;
+  }
 }
 
 /**
@@ -136,155 +290,43 @@ width: 300px;
  * ----------------------------------------
  */
 
-@-webkit-keyframes typing { from { width: 0; } }
-@-webkit-keyframes blink-caret { 50% { border-color: transparent; } }
+@-webkit-keyframes typing {
+  from {
+    width: 0;
+  }
+}
+@-webkit-keyframes blink-caret {
+  50% {
+    border-color: transparent;
+  }
+}
 
 /**
  * ----------------------------------------
  * animation slide-in-fwd-bottom for portfolip thumbnails
  * ----------------------------------------
  */
- @-webkit-keyframes slide-in-fwd-bottom {
+@-webkit-keyframes slide-in-fwd-bottom {
   0% {
     -webkit-transform: translateZ(-1400px) translateY(800px);
-            transform: translateZ(-1400px) translateY(800px);
+    transform: translateZ(-1400px) translateY(800px);
     opacity: 0;
   }
   100% {
     -webkit-transform: translateZ(0) translateY(0);
-            transform: translateZ(0) translateY(0);
+    transform: translateZ(0) translateY(0);
     opacity: 1;
   }
 }
 @keyframes slide-in-fwd-bottom {
   0% {
     -webkit-transform: translateZ(-1400px) translateY(800px);
-            transform: translateZ(-1400px) translateY(800px);
+    transform: translateZ(-1400px) translateY(800px);
     opacity: 0;
   }
   100% {
     -webkit-transform: translateZ(0) translateY(0);
-            transform: translateZ(0) translateY(0);
+    transform: translateZ(0) translateY(0);
     opacity: 1;
   }
 }
-
-
-@media (min-width:320px) {
-  .danielPuiattiProfileImage img {
-    position: relative;
-    z-index: 1;
-    width: 290px;
-  }
-  }
-
-  @media (min-width:375px) {
-    .danielPuiattiProfileImage img {
-      margin: 1rem 1.5rem 1rem 1.5rem;
-      width: 300px;
-    }
-    }
-
-    @media (min-width:425px) {
-      .danielPuiattiProfileImage img {
-        margin: 1rem 1.5rem 1rem 3rem;
-      }
-      }
-
-      @media (min-width:768px) {
-        .danielPuiattiProfileImage img {
-          margin: 4rem 3rem 7rem 0rem;
-        }
-        }
-    
-
-        @media (min-width:1024px) {
-          .danielPuiattiProfileImage img {
-            margin: 1rem 4rem 1rem 1.5rem;
-            position: relative;
-            z-index: 1;
-          }
-          
-.Home h1 {
-  font: bold 300% Consolas, Monaco, monospace;
-	border-right: .1em solid white;
-	width: 16.5em; 
-	width: 21ch;
-
-	white-space: nowrap;
-	overflow: hidden;
-	-webkit-animation: typing 1s steps(21, end),
-	           blink-caret .5s step-end infinite alternate;
-  
-}
-
-
-.Home .introParagraphOne {
-  z-index: 0;
-  position: relative;
-}
-
-.Home .introParagraphTwo {
-  z-index: 0;
-  position: relative;
-}
-
-.Home .introParagraphThree {
-  z-index: 0;
-  position: relative;
-}
-
-.PortfolioThumbnails img {
-  box-shadow: 
-  0 0 5px 1px  #80deea,
-  0 0 6px 1px  #1a5e63;
-  ;
-}
-
-          }
-
-      @media (min-width:1440px) {
-        .danielPuiattiProfileImage img {
-          margin: 1rem 1.5rem 1rem 1.5rem;
-          margin: 1rem 4rem 1rem 1.5rem;
-          position: relative;
-          z-index: 1;
-          
-        }
-
-        
-.Home h1 {
-  font: bold 300% Consolas, Monaco, monospace;
-	border-right: .1em solid white;
-	width: 16.5em; 
-	width: 21ch;
-	white-space: nowrap;
-	overflow: hidden;
-	-webkit-animation: typing 1s steps(21, end),
-	           blink-caret .5s step-end infinite alternate;
-  
-}
-
-.Home .introParagraphOne {
-  z-index: 0;
-  position: relative;
-}
-
-.Home .introParagraphTwo {
-  z-index: 0;
-  position: relative;
-}
-
-.Home .introParagraphThree {
-  z-index: 0;
-  position: relative;
-}
-        }
-
-
-
-
-
-
-
-  
