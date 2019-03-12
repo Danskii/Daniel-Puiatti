@@ -14,7 +14,7 @@ class Portfolio extends Component {
   <Image src={require('../images/professionally-speaking.jpg')} thumbnail  />
 
   <div className="portfolioJumbotronContentWrapper">
-    <h3>Professionally Speaking</h3>
+    <h3 id="professionallyspeaking">Professionally Speaking</h3>
     <p>
     Online magazine of the Ontario College of Teachers.
     </p>
@@ -32,7 +32,7 @@ class Portfolio extends Component {
   <Container>
   <Image src={require('../images/daniel-puiatti-photography.jpg')} thumbnail  />
   <div className="portfolioJumbotronContentWrapper">
-    <h3>Daniel Puiatti Photography</h3>
+    <h3 id="dpPhotography">Daniel Puiatti Photography</h3>
     <p>
     Full featured photography website. All photos taken and edited by myself.
     </p>
@@ -52,7 +52,7 @@ class Portfolio extends Component {
   <Container>
   <Image src={require('../images/toronto-bike-fixit-map.jpg')} thumbnail  />
   <div className="portfolioJumbotronContentWrapper">
-    <h3>Toronto Bike Fixit Map</h3>
+    <h3 id="toBikeFixit">Toronto Bike Fixit Map</h3>
     <p>
     Open source map of free repair stations in the Greater Toronto Area.
     </p>
@@ -69,7 +69,7 @@ class Portfolio extends Component {
   <Container>
   <Image src={require('../images/danskii.jpg')} thumbnail  />
   <div className="portfolioJumbotronContentWrapper">
-    <h3>Danskii</h3>
+    <h3 id="danskii">Danskii</h3>
     <p>
     Clothing and social media lifestyle brand based out of Toronto, Canada.
     </p>
@@ -86,7 +86,7 @@ class Portfolio extends Component {
   <Container>
   <Image src={require('../images/gradient-background-generator.jpg')} thumbnail  />
   <div className="portfolioJumbotronContentWrapper">
-    <h3>Gradient Generator</h3>
+    <h3 id="gradientgen">Gradient Generator</h3>
     <p>
     Free web application to help you generate cool looking gradients.
     </p>
@@ -103,7 +103,7 @@ class Portfolio extends Component {
   <Container>
       <Image src={require('../images/making-pdfs-aoda-compliant.jpg')} thumbnail  />
       <div className="portfolioJumbotronContentWrapper">
-    <h3>Acessible PDFs</h3>
+    <h3 id="accessible">Acessible PDFs</h3>
     <p>
     An easy to follow guide on how you can make your PDFs accessible.
     </p>
@@ -121,7 +121,7 @@ class Portfolio extends Component {
   <Container>
       <Image src={require('../images/outpost-magazine-shop.jpg')} thumbnail  />
       <div className="portfolioJumbotronContentWrapper">
-    <h3>The Outpost Shop</h3>
+    <h3 id="opshop">The Outpost Shop</h3>
     <p>
     Ecommerce platform for travel magazine.
     </p>
@@ -138,7 +138,7 @@ class Portfolio extends Component {
   <Container>
       <Image src={require('../images/daniel-puiatti-portfolio.jpg')} thumbnail  />
       <div className="portfolioJumbotronContentWrapper">
-    <h3>Daniel Puiatti's Portfolio</h3>
+    <h3  id="dpportfolio">Daniel Puiatti's Portfolio</h3>
     <p>
    That's this website! Is that cheating?
     </p>
