@@ -155,10 +155,6 @@ font-size: 1.1rem;
 
 .Portfolio .portfolioJumbotronContentWrapper .portfolioCallToActionLink {
 color: #1a5e63;
-
-
-
-
 font-size: 1.3rem;
 display: inline-block;
 font-weight: 600;
@@ -169,6 +165,13 @@ font-weight: 600;
   }
 
 
+/*
+* === BLOG PAGE ===
+*/
+
+.Blog .card-deck {
+margin-top: 20px;
+}
 
 /*
 * === RESPONSIVE DESIGN ===
