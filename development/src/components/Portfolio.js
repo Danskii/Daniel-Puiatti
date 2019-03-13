@@ -9,7 +9,7 @@ class Portfolio extends Component {
     return (
       <div className="Portfolio">
            <PortfolioThumbnails />
-<Jumbotron fluid>
+<Jumbotron fluid className="slide-in-left">
   <Container>
   <Image src={require('../images/professionally-speaking.jpg')} thumbnail  />
 
@@ -26,11 +26,15 @@ class Portfolio extends Component {
       <li>Over 200 pages of content were manually built over a year.</li>
       <li>No frameworks or libraries used.</li>
 </ul>
-
+<a href="https://www.oct.ca/publications/professionally_speaking/default.aspx" target="_blank">
+<p className="portfolioCallToActionLink"> 
+See the live page >>>
+</p>
+</a>
 </div>
   </Container>
 </Jumbotron>
-<Jumbotron fluid>
+<Jumbotron fluid className="slide-in-right">
   <Container>
   <Image src={require('../images/daniel-puiatti-photography.jpg')} thumbnail  />
   <div className="portfolioJumbotronContentWrapper">
@@ -44,13 +48,16 @@ class Portfolio extends Component {
       <li>Collection of over 200 photographs taken and edited by myself.</li>
       <li>Site was developed with a focus on responsive design.</li>
 
-      
-
 </ul>
+<a href="https://danskii.github.io/Daniel-Puiatti-Photography/" target="_blank">
+<p className="portfolioCallToActionLink"> 
+See the live page >>>
+</p>
+</a>
 </div>
   </Container>
 </Jumbotron>
-<Jumbotron fluid>
+<Jumbotron fluid className="slide-in-left">
   <Container>
   <Image src={require('../images/toronto-bike-fixit-map.jpg')} thumbnail  />
   <div className="portfolioJumbotronContentWrapper">
@@ -64,10 +71,15 @@ class Portfolio extends Component {
       <li>Map developed to facilitate quick, seamless updates.</li>
       <li>Social sharing integrated as NPM package.</li>
     </ul>
+    <a href="https://danskii.github.io/Toronto-Bike-Fixit-Map/" target="_blank">
+<p className="portfolioCallToActionLink"> 
+See the live page >>>
+</p>
+</a>
     </div>
   </Container>
 </Jumbotron>
-<Jumbotron fluid>
+<Jumbotron fluid className="slide-in-right">
   <Container>
   <Image src={require('../images/danskii.jpg')} thumbnail  />
   <div className="portfolioJumbotronContentWrapper">
@@ -81,10 +93,15 @@ class Portfolio extends Component {
         <li>All elements hand coded: CSS, HTML, JavaScript.</li>
         <li>All graphics designed by myself.</li>
       </ul>
+      <a href="https://danskii.com/" target="_blank">
+<p className="portfolioCallToActionLink"> 
+See the live page >>>
+</p>
+</a>
       </div>
   </Container>
 </Jumbotron>
-<Jumbotron fluid>
+<Jumbotron fluid className="slide-in-left">
   <Container>
   <Image src={require('../images/gradient-background-generator.jpg')} thumbnail  />
   <div className="portfolioJumbotronContentWrapper">
@@ -98,10 +115,15 @@ class Portfolio extends Component {
       <li>Provides functional gradients that can be used for web design.</li>
       <li>Built in one-hour.</li>
     </ul>
+    <a href="https://danskii.github.io/Graident-Background-Generator/" target="_blank">
+<p className="portfolioCallToActionLink"> 
+See the live page >>>
+</p>
+</a>
     </div>
   </Container>
 </Jumbotron>
-<Jumbotron fluid>
+<Jumbotron fluid className="slide-in-right">
   <Container>
       <Image src={require('../images/making-pdfs-aoda-compliant.jpg')} thumbnail  />
       <div className="portfolioJumbotronContentWrapper">
@@ -116,10 +138,15 @@ class Portfolio extends Component {
       <li>Layout provides optimal read experience for technically dense content.</li>
    
     </ul>
+    <a href="https://aoda-compliant.com/" target="_blank">
+<p className="portfolioCallToActionLink"> 
+See the live page >>>
+</p>
+</a>
     </div>
   </Container>
 </Jumbotron>
-<Jumbotron fluid>
+<Jumbotron fluid className="slide-in-left">
   <Container>
       <Image src={require('../images/outpost-magazine-shop.jpg')} thumbnail  />
       <div className="portfolioJumbotronContentWrapper">
@@ -133,10 +160,15 @@ class Portfolio extends Component {
       <li>Developed back-issues section to showcase each edition and optimize SEO.</li>
       <li>Integrated payment system to accept AMEX, MasterCard, PayPal and VISA.</li>
     </ul>
+    <a href="https://the-outpost-shop.myshopify.com/" target="_blank">
+<p className="portfolioCallToActionLink"> 
+See the live page >>>
+</p>
+</a>
     </div>
   </Container>
 </Jumbotron>
-<Jumbotron fluid>
+<Jumbotron fluid className="slide-in-right">
   <Container>
       <Image src={require('../images/daniel-puiatti-portfolio.jpg')} thumbnail  />
       <div className="portfolioJumbotronContentWrapper">
@@ -150,6 +182,11 @@ class Portfolio extends Component {
       <li>Is Fast!</li>
       <li>You are already on it!</li>
     </ul>
+    <a href="https://danskii.github.io/Daniel-Puiatti/" target="_blank">
+<p className="portfolioCallToActionLink"> 
+See the live page >>>
+</p>
+</a>
     </div>
   </Container>
 </Jumbotron>
