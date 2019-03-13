@@ -54,7 +54,7 @@ class PortfolioThumbnails extends Component {
     </Link>
     </Col>
   </Row>
-</Container>;
+</Container>
       </div>
     );
   }

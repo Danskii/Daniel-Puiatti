@@ -104,6 +104,10 @@ code {
 * === PORTFOLIO THUMBNAIL COMPONENT ===
 */
 
+.PortfolioThumbnails {
+  margin-top: 20px;
+}
+
 .PortfolioThumbnails .container {
   -webkit-animation: slide-in-fwd-bottom 0.5s
     cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
@@ -118,12 +122,31 @@ code {
 * === PORTFOLIO PAGE ===
 */
 
+.Portfolio h3 {
+  margin-bottom: 1.5rem;
+  color: #1a5e63;
+  text-shadow: 1.5px 1.5px #dfe0db;
+  font-size: 2rem;
+  border-bottom: 1.5px solid #1a5e63;
+}
+
+.Portfolio p,
+.Portfolio li {
+  color: #1a5e63;
+}
+
+.portfolioPageSubHeading {
+
+font-size: 1.1rem;
+}
+
 .Portfolio .jumbotron  {
   background-color: white;
 }
 
 .Portfolio .jumbotron img {
   width: 300px;
+  box-shadow: 0 0 5px 1px #80deea, 0 0 6px 1px #1a5e63;
 }
 
 .Portfolio .portfolioJumbotronContentWrapper {
@@ -142,6 +165,19 @@ code {
     position: relative;
     z-index: 1;
     width: 290px;
+  }
+
+    /*
+* — Portfolio page @ 320px  —
+*/
+  .Portfolio h3 {
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem; 
+padding-bottom: 1.1rem;
+  }
+
+  .Portfolio .jumbotron  {
+    margin-bottom: 10px;
   }
 }
 
