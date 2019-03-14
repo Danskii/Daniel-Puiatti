@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import Nav from 'react-bootstrap/Nav';
-
 import Home from './Home';
 import Blog from './Blog';
 import Contact from './Contact';
 import Portfolio from './Portfolio';
+import Skills from './Skills';
 import {
   BrowserRouter as Router,
   Route,
@@ -34,6 +34,9 @@ class Navigation extends Component {
   <Link to="/portfolio"><Nav.Link href="/portfolio">Portfolio</Nav.Link></Link>
   </Nav.Item>
   <Nav.Item>
+  <Link to="/skills"><Nav.Link href="/skills">Skills</Nav.Link></Link>
+  </Nav.Item>
+  <Nav.Item>
   <Link to="/blog"><Nav.Link href="/blog">Blog</Nav.Link></Link>
   </Nav.Item>
   <Nav.Item>
@@ -42,6 +45,7 @@ class Navigation extends Component {
 </Nav>
       <Route exact path="/" component={Home}/>
       <Route path="/portfolio" component={Portfolio}/>
+      <Route path="/skills" component={Skills}/>
       <Route path="/blog" component={Blog}/>
       <Route path="/contact" component={Contact}/>
     </div>
