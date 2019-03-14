@@ -1,38 +1,39 @@
+
 import React, { Component } from 'react';
-import Button from 'react-bootstrap/Button'
-import Collapse from 'react-bootstrap/Collapse'
-class Skills extends React.Component {
-    constructor(props, context) {
-      super(props, context);
-  
-      this.state = {
-        open: false,
-      };
-    }
-  
-    render() {
-      const { open } = this.state;
-      return (
-        <>
-          <Button
-            onClick={() => this.setState({ open: !open })}
-            aria-controls="example-collapse-text"
-            aria-expanded={open}
-          >
-            click
-          </Button>
-          <Collapse in={this.state.open}>
-            <div id="example-collapse-text">
-              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
-              terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer
-              labore wes anderson cred nesciunt sapiente ea proident.
-            </div>
-          </Collapse>
-        </>
-      );
-    }
-  }
-  
+import { render } from 'react-dom';
+import Accordion from '../components/Accordian';
+
+class Skills extends Component {
+  render() {
+    return (
+    <div className="Skills">
+     
+      <Accordion>
+        <div label='Technical'>
+         <p> From building websites from scratch to developing framework driven webapps, I have over 10 years of experience working with frontend technologies. 
+         </p>
+         <p>Skills include: HTML, CSS, JavaScript, React, Git, Team Foundation Server, Sitecore, SharePoint, Joomla, Wordpress, Shopify, Squarespace, Active Server Pages, Cpanel</p>
+        </div>
+        <div label='Marketing/Advertising'>
+        <p>My digital campaigns have reached over two million Canadians. You may very well remember my work with  brands like SickKids, Outpost Magazine and the Ontario College of Teachers.  
+         </p>
+         <p>Skills include: Facebook Ads Manager, Twitters Ads Manager, LinkedIn Advertising, Pinterest Advertising, Google AdWords, Google Display Ads, Campaign Development and Optimization, SEO, Social Media Content Creation and monitoring.</p>
+         
+        </div>
+        <div label='Leadership'>
+        <p>I take pride in helping my teams strive towards excellence. From managaing  small technical teams to a network of global writers, I'm driven by the success of others.</p>
+       
+        </div>
+
+        <div label='Creative'>
+        <p>I take pride in helping my teams strive towards excellence. From managaing  small technical teams to a network of global writers, I'm driven by the success of others.</p>
+        </div>
+        
+      </Accordion>
+    </div>
+  );
+}
+}
 
 
 export default Skills;
