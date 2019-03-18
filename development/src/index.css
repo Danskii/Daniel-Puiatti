@@ -174,10 +174,44 @@ margin-top: 20px;
 }
 
 /*
-* === SKILLS PAGE ===
+* === SERVICES PAGE ===
 */
 
-.Skills 
+.Services .carousel.slide {
+  width: 100%;
+  height: 300px;
+}
+
+.Services .carousel-control-prev,
+.Services .carousel-control-next {
+  color: black;
+}
+
+.Services .carousel-caption
+{
+  color: #1a5e63;
+  position: unset;
+  padding: 5% 10% 0 10%;
+  font-size: 1.2rem;
+  text-align: justify;
+  clear: both;
+}
+
+.Services .carousel-caption .testimonialName
+{
+padding-top: 10px;
+margin-bottom: 0px;
+font-size: 1.8rem;
+text-align: center;
+}
+
+.Services .carousel-caption .testimonialPosition 
+{
+  text-align: center;
+font-style: italic;
+}
+
+
 
 
 

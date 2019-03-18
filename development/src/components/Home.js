@@ -10,7 +10,7 @@ import {
   Link
 } from 'react-router-dom';
 import PortfolioThumbnails from '../components/PortfolioThumbnails';
-import posed from 'react-pose'
+
 
 class Home extends Component {
   render() {
