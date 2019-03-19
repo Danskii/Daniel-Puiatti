@@ -106,6 +106,7 @@ code {
 
 .PortfolioThumbnails {
   box-shadow: -3px 3px 6px 1px #1a5e63;
+  padding: 4rem 2rem;
   margin-bottom: 10px;
   background: #80deea;
   -webkit-animation: slide-in-fwd-bottom 0.5s
@@ -181,15 +182,32 @@ code {
   box-shadow: -3px 3px 6px 1px #1a5e63;
   margin-bottom: 10px;
   background: #80deea;
+  -webkit-animation: slide-in-fwd-bottom 0.5s
+    cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-in-fwd-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 
 .Services .card {
   border: unset;
+  background-color: #80deea;
 }
 
 .Services .card-body {
   text-align: center;
   background: #80deea;
+}
+
+.Services .card-text {
+  color: #212529;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+
+.Services .card-title {
+  background: #1a5e63;
+  color: white;
+  padding: 2px;
+  letter-spacing: 2px;
 }
 
 .card img {
@@ -199,7 +217,7 @@ code {
 .Services #testimonials {
   margin: 5%;
   color: #1a5e63;
-  font-size: 1.4rem;
+  font-size: 2rem;
   letter-spacing: 2px;
   text-align: center;
 }
@@ -209,18 +227,14 @@ code {
   height: 300px;
 }
 
-.Services .carousel-control-prev,
-.Services .carousel-control-next {
-  color: black;
-}
-
 .Services .carousel-caption {
   color: #1a5e63;
   position: unset;
   padding: 0 10% 0 10%;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   text-align: justify;
-  clear: both;
+  font-weight: 400;
+  line-height: 2;
 }
 
 .Services .carousel-caption .testimonialName {
@@ -228,11 +242,32 @@ code {
   margin-bottom: 0px;
   font-size: 1.8rem;
   text-align: center;
+  border-bottom: 1px solid black;
 }
 
 .Services .carousel-caption .testimonialPosition {
   text-align: center;
   font-style: italic;
+}
+
+.Services .carousel-control-next-icon:after {
+  content: ">";
+  font-size: 55px;
+  color: #1a5e63;
+}
+
+.Services .carousel-control-prev-icon:after {
+  content: "<";
+  font-size: 55px;
+  color: #1a5e63;
+}
+
+.Services .carousel-indicators {
+  display: none;
+}
+
+.Services .carousel-inner {
+  margin-bottom: 5%;
 }
 
 /*
@@ -260,6 +295,18 @@ code {
 
   .Portfolio .jumbotron {
     margin-bottom: 10px;
+  }
+
+  /*
+* — Services page @ 320px  —
+*/
+
+  .Services .carousel-caption {
+    font-size: 1.1rem;
+    text-align: center;
+    font-weight: 400;
+    line-height: 1.5;
+    padding: 0 20% 0 20%;
   }
 }
 
@@ -347,6 +394,22 @@ code {
   .Portfolio .portfolioJumbotronContentWrapper p {
     margin-left: 20px;
   }
+
+  /*
+* — Services page @ 1024px  —
+*/
+
+  .Services .servicesWrapper {
+    padding: 4rem 2rem;
+  }
+
+  .Services .carousel-control-next-icon:after {
+    margin-left: 20px;
+  }
+
+  .Services .carousel-control-prev-icon:after {
+    margin-left: -50px;
+  }
 }
 
 @media (min-width: 1440px) {
@@ -399,6 +462,22 @@ code {
   .Portfolio .portfolioJumbotronContentWrapper h3,
   .Portfolio .portfolioJumbotronContentWrapper p {
     margin-left: 20px;
+  }
+
+  /*
+* — Services page @ 1440px  —
+*/
+
+  .Services .servicesWrapper {
+    padding: 4rem 2rem;
+  }
+
+  .Services .carousel-control-next-icon:after {
+    margin-left: 20px;
+  }
+
+  .Services .carousel-control-prev-icon:after {
+    margin-left: -50px;
   }
 }
 

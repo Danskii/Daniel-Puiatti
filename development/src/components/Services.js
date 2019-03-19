@@ -16,8 +16,8 @@ class Skills extends Component {
         <div className="servicesWrapper">
           <Container>
             <Row>
-              <Col xs={12} sm={6} md={4} lg={4}>
-                <Card style={{ width: "18rem" }}>
+              <Col xs={12} sm={6} md={6} lg={4}>
+                <Card>
                   <Card.Body>
                     <Card.Img
                       variant="top"
@@ -33,8 +33,8 @@ class Skills extends Component {
                   </Card.Body>
                 </Card>
               </Col>
-              <Col xs={12} sm={6} md={4} lg={4}>
-                <Card style={{ width: "18rem" }}>
+              <Col xs={12} sm={6} md={6} lg={4}>
+                <Card>
                   <Card.Body>
                     <Card.Img
                       variant="top"
@@ -50,8 +50,8 @@ class Skills extends Component {
                   </Card.Body>
                 </Card>
               </Col>
-              <Col xs={12} sm={6} md={4} lg={4}>
-                <Card style={{ width: "18rem" }}>
+              <Col xs={12} sm={6} md={6} lg={4}>
+                <Card>
                   <Card.Body>
                     <Card.Img
                       variant="top"
@@ -61,15 +61,15 @@ class Skills extends Component {
                   <Card.Body>
                     <Card.Title>Online Advertising</Card.Title>
                     <Card.Text>
-                      Reach your target audience and meet your advertising
-                      objectives all at an affordable rate.
+                      Reach your target audience and meet advertising objectives
+                      all at an affordable rate.
                     </Card.Text>
                   </Card.Body>
                 </Card>
               </Col>
 
-              <Col xs={12} sm={6} md={4} lg={4}>
-                <Card style={{ width: "18rem" }}>
+              <Col xs={12} sm={6} md={6} lg={4}>
+                <Card>
                   <Card.Body>
                     <Card.Img
                       variant="top"
@@ -85,8 +85,8 @@ class Skills extends Component {
                   </Card.Body>
                 </Card>
               </Col>
-              <Col xs={12} sm={6} md={4} lg={4}>
-                <Card style={{ width: "18rem" }}>
+              <Col xs={12} sm={6} md={6} lg={4}>
+                <Card>
                   <Card.Body>
                     <Card.Img
                       variant="top"
@@ -102,8 +102,8 @@ class Skills extends Component {
                   </Card.Body>
                 </Card>
               </Col>
-              <Col xs={12} sm={6} md={4} lg={4}>
-                <Card style={{ width: "18rem" }}>
+              <Col xs={12} sm={6} md={6} lg={4}>
+                <Card>
                   <Card.Body>
                     <Card.Img
                       variant="top"
@@ -111,7 +111,7 @@ class Skills extends Component {
                     />
                   </Card.Body>
                   <Card.Body>
-                    <Card.Title>Copywriting and Editing</Card.Title>
+                    <Card.Title>Copywriting</Card.Title>
                     <Card.Text>
                       Clear, concise and compelling. I can draft, edit and
                       optimize copy that gets results.

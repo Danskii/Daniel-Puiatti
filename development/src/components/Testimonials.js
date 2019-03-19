@@ -12,14 +12,9 @@ class Testimonials extends Component {
       <div className="Testimonials">
         <Container>
           <div className="testimonialsWrapper">
-            <div id="testimonials">Testimonials</div>
+            <h3 id="testimonials">Testimonials</h3>
 
-            <Carousel
-              interval="null"
-              indicators="false"
-              controls="true"
-              pauseOnHover="true"
-            >
+            <Carousel pauseOnHover="true" indicators="false" interval="10000">
               <Carousel.Item>
                 <Carousel.Caption>
                   <p>
