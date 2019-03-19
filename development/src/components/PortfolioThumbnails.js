@@ -11,7 +11,7 @@ class PortfolioThumbnails extends Component {
     return (
       <div className="PortfolioThumbnails">
  
-<Container>
+<Container fluid>
   <Row>
     <Col xs={12} sm={4} md={4} lg={3}>
     <Link to="/portfolio#professionallyspeaking">
