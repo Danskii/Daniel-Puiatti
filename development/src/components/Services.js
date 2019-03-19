@@ -17,7 +17,9 @@ class Skills extends Component {
           <Row>
           <Col xs={12} sm={6} md={4} lg={4}>
               <Card style={{ width: "18rem" }}>
+              <Card.Body>
                 <Card.Img variant="top" src={require('../images/icons/web-development.png')} />
+                </Card.Body>
                 <Card.Body>
                   <Card.Title>Web Development</Card.Title>
                   <Card.Text>
@@ -29,9 +31,11 @@ class Skills extends Component {
             </Col>
             <Col xs={12} sm={6} md={4} lg={4}>
               <Card style={{ width: "18rem" }}>
-        
+              <Card.Body>
+          <Card.Img variant="top" src={require('../images/icons/seo.png')} />
+          </Card.Body>
                 <Card.Body>
-                <Card.Img variant="top" src={require('../images/icons/seo.png')} />
+              
                   <Card.Title>SEO</Card.Title>
                   <Card.Text>
                     Looking for a rock solid way to increase traffic to your
@@ -42,7 +46,9 @@ class Skills extends Component {
             </Col>
             <Col xs={12} sm={6} md={4} lg={4}>
               <Card style={{ width: "18rem" }}>
+                <Card.Body>
                 <Card.Img variant="top" src={require('../images/icons/online-advertising.png')} />
+                </Card.Body>
                 <Card.Body>
                   <Card.Title>Online Advertising</Card.Title>
                   <Card.Text>
@@ -56,7 +62,9 @@ class Skills extends Component {
       
             <Col xs={12} sm={6} md={4} lg={4}>
               <Card style={{ width: "18rem" }}>
+              <Card.Body>
                 <Card.Img variant="top" src={require('../images/icons/social-media.png')} />
+                </Card.Body>
                 <Card.Body>
                   <Card.Title>Social Media</Card.Title>
                   <Card.Text>
@@ -68,7 +76,9 @@ class Skills extends Component {
             </Col>
             <Col xs={12} sm={6} md={4} lg={4}>
               <Card style={{ width: "18rem" }}>
+              <Card.Body>
                 <Card.Img variant="top" src={require('../images/icons/design.png')} />
+                </Card.Body>
                 <Card.Body>
                   <Card.Title>Graphic Design</Card.Title>
                   <Card.Text>
@@ -80,7 +90,9 @@ class Skills extends Component {
             </Col>
             <Col xs={12} sm={6} md={4} lg={4}>
               <Card style={{ width: "18rem" }}>
+              <Card.Body>
                 <Card.Img variant="top" src={require('../images/icons/copy-writing.png')} />
+                </Card.Body>
                 <Card.Body>
                   <Card.Title>Copywriting and Editing</Card.Title>
                   <Card.Text>

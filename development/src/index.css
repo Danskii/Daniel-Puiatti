@@ -105,7 +105,7 @@ code {
 */
 
 .PortfolioThumbnails {
-  margin-top: 20px;
+ 
 }
 
 .PortfolioThumbnails .container {
@@ -177,12 +177,20 @@ margin-top: 20px;
 * === SERVICES PAGE ===
 */
 
+
+
 .Services .card {
   border: unset;
+   
+}
+
+.Services .card-body {
+  text-align: center;
 }
 
 .card img {
   width: 100px;
+
 }
 
 .Services #testimonials {
