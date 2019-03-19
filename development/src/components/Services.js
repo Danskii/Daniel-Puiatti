@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import { render } from 'react-dom';
 import Accordion from '../components/Accordian';
 import Container from 'react-bootstrap/Container';
+import Image from 'react-bootstrap/Image';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
@@ -14,9 +15,9 @@ class Skills extends Component {
       <div className="Services">
         <Container>
           <Row>
-          <Col xs={12} sm={4} md={4} lg={4}>
+          <Col xs={12} sm={6} md={4} lg={4}>
               <Card style={{ width: "18rem" }}>
-                <Card.Img variant="top" src="holder.js/100px180" />
+                <Card.Img variant="top" src={require('../images/icons/web-development.png')} />
                 <Card.Body>
                   <Card.Title>Web Development</Card.Title>
                   <Card.Text>
@@ -26,10 +27,11 @@ class Skills extends Component {
                 </Card.Body>
               </Card>
             </Col>
-            <Col xs={12} sm={4} md={4} lg={4}>
+            <Col xs={12} sm={6} md={4} lg={4}>
               <Card style={{ width: "18rem" }}>
-                <Card.Img variant="top" src="holder.js/100px180" />
+        
                 <Card.Body>
+                <Card.Img variant="top" src={require('../images/icons/seo.png')} />
                   <Card.Title>SEO</Card.Title>
                   <Card.Text>
                     Looking for a rock solid way to increase traffic to your
@@ -38,9 +40,9 @@ class Skills extends Component {
                 </Card.Body>
               </Card>
             </Col>
-            <Col xs={12} sm={4} md={4} lg={4}>
+            <Col xs={12} sm={6} md={4} lg={4}>
               <Card style={{ width: "18rem" }}>
-                <Card.Img variant="top" src="holder.js/100px180" />
+                <Card.Img variant="top" src={require('../images/icons/online-advertising.png')} />
                 <Card.Body>
                   <Card.Title>Online Advertising</Card.Title>
                   <Card.Text>
@@ -52,9 +54,9 @@ class Skills extends Component {
             </Col>
       
       
-            <Col xs={12} sm={4} md={4} lg={4}>
+            <Col xs={12} sm={6} md={4} lg={4}>
               <Card style={{ width: "18rem" }}>
-                <Card.Img variant="top" src="holder.js/100px180" />
+                <Card.Img variant="top" src={require('../images/icons/social-media.png')} />
                 <Card.Body>
                   <Card.Title>Social Media</Card.Title>
                   <Card.Text>
@@ -64,9 +66,9 @@ class Skills extends Component {
                 </Card.Body>
               </Card>
             </Col>
-            <Col xs={12} sm={4} md={4} lg={4}>
+            <Col xs={12} sm={6} md={4} lg={4}>
               <Card style={{ width: "18rem" }}>
-                <Card.Img variant="top" src="holder.js/100px180" />
+                <Card.Img variant="top" src={require('../images/icons/design.png')} />
                 <Card.Body>
                   <Card.Title>Graphic Design</Card.Title>
                   <Card.Text>
@@ -76,9 +78,9 @@ class Skills extends Component {
                 </Card.Body>
               </Card>
             </Col>
-            <Col xs={12} sm={4} md={4} lg={4}>
+            <Col xs={12} sm={6} md={4} lg={4}>
               <Card style={{ width: "18rem" }}>
-                <Card.Img variant="top" src="holder.js/100px180" />
+                <Card.Img variant="top" src={require('../images/icons/copy-writing.png')} />
                 <Card.Body>
                   <Card.Title>Copywriting and Editing</Card.Title>
                   <Card.Text>
@@ -89,6 +91,7 @@ class Skills extends Component {
               </Card>
             </Col>
           </Row>
+          <div id="testimonials">Testimonials</div>
           <Carousel interval="null" indicators="false" controls="true" pauseOnHover="true">
             <Carousel.Item>
               <Carousel.Caption>
@@ -252,6 +255,7 @@ class Skills extends Component {
             </Carousel.Item>
           </Carousel>
         </Container>
+        <p></p>
       </div>
     );
 }
