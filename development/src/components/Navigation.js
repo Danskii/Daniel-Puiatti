@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Nav from "react-bootstrap/Nav";
 import Home from "./Home";
 import Blog from "./Blog";
-import Contact from "./Contact";
+import Connect from "./Connect";
 import Portfolio from "./Portfolio";
 import Services from "./Services";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
@@ -35,16 +35,16 @@ class Navigation extends Component {
                 </Link>
               </Nav.Item>
               <Nav.Item>
-                <Link to="/contact">
-                  <Nav.Link href="/contact">Contact</Nav.Link>
-                </Link>
+                <Link to="/connect">
+                  <Nav.Link href="/connect">Connect</Nav.Link>
+                  </Link>
               </Nav.Item>
             </Nav>
             <Route exact path="/" component={Home} />
             <Route path="/portfolio" component={Portfolio} />
             <Route path="/services" component={Services} />
             <Route path="/blog" component={Blog} />
-            <Route path="/contact" component={Contact} />
+            <Route path="/connect" component={Connect} />
           </div>
         </Router>
       </div>

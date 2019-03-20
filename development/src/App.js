@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Navigation from './components/Navigation';
 import Home from './components/Home';
 import Blog from './components/Blog';
-import Contact from './components/Contact';
+import Connect from './components/Connect';
 import Portfolio from './components/Portfolio';
 import {
   BrowserRouter as Router,

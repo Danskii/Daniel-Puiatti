@@ -306,6 +306,44 @@ color: #80deea!important;
   margin-bottom: 5%;
 }
 
+
+/*
+* === CONTACT PAGE ===
+*/
+
+.Connect {
+background: #80deea;
+padding: 4rem 2rem;
+-webkit-animation: slide-in-fwd-bottom 0.5s
+cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+animation: slide-in-fwd-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+box-shadow: -3px 3px 6px 1px #1a5e63;
+}
+
+.Connect .card {
+  background-color: rgb(128, 222, 234);
+  border: unset;
+}
+
+.Connect .card:hover {
+ 
+  border: 1px solid #1a5e63;
+}
+
+
+
+.Connect .card-body {
+  text-align: center;
+  background: #80deea;
+}
+
+.Connect .card-title {
+  background: #1a5e63;
+  color: white;
+  padding: 2px;
+  letter-spacing: 2px;
+}
+
 /*
 * === RESPONSIVE DESIGN ===
 */
