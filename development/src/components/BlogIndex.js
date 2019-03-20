@@ -4,10 +4,10 @@ import CardDeck from "react-bootstrap/CardDeck";
 
 
 
-class Blog extends Component {
+class BlogIndex extends Component {
   render() {
     return (
-      <div className="Blog">
+      <div className="BlogIndex">
      
         <CardDeck>
           <Card>
@@ -65,4 +65,4 @@ class Blog extends Component {
   }
 }
 
-export default Blog;
+export default BlogIndex;

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Nav from "react-bootstrap/Nav";
 import Home from "./Home";
-import Blog from "./Blog";
+import BlogIndex from "./BlogIndex";
 import Connect from "./Connect";
 import Portfolio from "./Portfolio";
 import Services from "./Services";
@@ -43,7 +43,7 @@ class Navigation extends Component {
             <Route exact path="/" component={Home} />
             <Route path="/portfolio" component={Portfolio} />
             <Route path="/services" component={Services} />
-            <Route path="/blog" component={Blog} />
+            <Route path="/blog" component={BlogIndex} />
             <Route path="/connect" component={Connect} />
           </div>
         </Router>

@@ -170,7 +170,7 @@ code {
 * === BLOG PAGE ===
 */
 
-.Blog {
+.BlogIndex {
   background: #80deea;
   padding: 4rem 2rem;
   -webkit-animation: slide-in-fwd-bottom 0.5s
@@ -179,15 +179,15 @@ animation: slide-in-fwd-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 box-shadow: -3px 3px 6px 1px #1a5e63;
 }
 
-.Blog .card-deck {
+.BlogIndex .card-deck {
   margin-top: 20px;
 }
 
-.Blog .card-body {
+.BlogIndex .card-body {
 
 }
 
-.Blog .card-title {
+.BlogIndex .card-title {
   color: #1a5e63;
 
   font-size: 1.2rem;
@@ -195,14 +195,14 @@ box-shadow: -3px 3px 6px 1px #1a5e63;
 }
 
 
-.Blog .card-footer {
+.BlogIndex .card-footer {
   background: #1a5e63;
   letter-spacing: 2px;
   background: #1a5e63;;
 }
 
 
-.Blog .card-footer .text-muted {
+.BlogIndex .card-footer .text-muted {
 color: #80deea!important;
   letter-spacing: 2px;
   font-size: 1.1rem;
