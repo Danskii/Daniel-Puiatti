@@ -1,14 +1,19 @@
 import React, { Component } from "react";
 import Card from "react-bootstrap/Card";
 import CardDeck from "react-bootstrap/CardDeck";
+import { Route, NavLink, HashRouter } from "react-router-dom";
 import Blog1 from "../components/posts/Blog1";
-
-
+import Blog2 from "../components/posts/Blog2";
+import Blog3 from "../components/posts/Blog3";
 
 class BlogIndex extends Component {
   render() {
     return (
+
+      <HashRouter>
       <div className="BlogIndex">
+     
+
      
         <CardDeck>
           <Card>
@@ -24,7 +29,9 @@ class BlogIndex extends Component {
               </Card.Text>
             </Card.Body>
             <Card.Footer>
+              <NavLink to="/Blog3">
               <small className="text-muted">Read me >>></small>
+              </NavLink>
             </Card.Footer>
           </Card>
           <Card>
@@ -39,7 +46,9 @@ class BlogIndex extends Component {
               </Card.Text>
             </Card.Body>
             <Card.Footer>
+            <NavLink to="/Blog2">
               <small className="text-muted">Read me >>></small>
+              </NavLink>
             </Card.Footer>
           </Card>
           <Card>
@@ -54,21 +63,23 @@ class BlogIndex extends Component {
               </Card.Text>
             </Card.Body>
             <Card.Footer>
+            <NavLink to="/Blog1">
               <small className="text-muted">Read me >>></small>
+              </NavLink>
             </Card.Footer>
           </Card>
 
         </CardDeck>
         <div className="blogIndexWrapper">
-        <Blog1 />
-        <Blog1 />
-        <Blog1 />
-        <Blog1 />
+    
+            <Route path="/Blog1" component={Blog1} />
+            <Route path="/Blog2" component={Blog2} />
+            <Route path="/Blog3" component={Blog3} />
 
         </div>
       </div>
       
-
+      </HashRouter>
     );
   }
 }

@@ -179,6 +179,20 @@ animation: slide-in-fwd-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 box-shadow: -3px 3px 6px 1px #1a5e63;
 }
 
+.BlogIndex .blogIndexWrapper {
+  margin: 4rem 2rem;
+  border-radius: 20px;
+}
+
+.BlogIndex h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #1a5e63;
+  text-shadow: 1.5px 1.5px #dfe0db;
+  font-size: 2rem;
+  
+}
+
 .BlogIndex .card-deck {
   margin-top: 20px;
 }
