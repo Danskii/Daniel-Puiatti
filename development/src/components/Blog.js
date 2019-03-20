@@ -2,11 +2,13 @@ import React, { Component } from "react";
 import Card from "react-bootstrap/Card";
 import CardDeck from "react-bootstrap/CardDeck";
 
+
+
 class Blog extends Component {
   render() {
     return (
       <div className="Blog">
-      <div className="blogIndexWrapper">
+     
         <CardDeck>
           <Card>
             {/* <Card.Img
@@ -55,6 +57,8 @@ class Blog extends Component {
             </Card.Footer>
           </Card>
         </CardDeck>
+        <div className="blogContentWrapper">
+
         </div>
       </div>
     );

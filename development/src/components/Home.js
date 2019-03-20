@@ -33,9 +33,11 @@ class Home extends Component {
               </p>
               <p className="introParagraphThree">
                 Thanks for taking the time to visit and please take a moment to
-                explore some of my{" "}
-                <Link to="/portfolio">digital media projects</Link>.
+                explore my
+                <Link to="/portfolio">digital media projects portfolio</Link>, <Link to="/services">skills and services</Link>. Otherwise If you'd like to contact me, please check out my  <Link to="/connect">connect</Link> page.
+     
               </p>
+            
             </div>
           </Container>
         </Jumbotron>
