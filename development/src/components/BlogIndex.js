@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Card from "react-bootstrap/Card";
 import CardDeck from "react-bootstrap/CardDeck";
+import Blog1 from "../components/posts/Blog1";
 
 
 
@@ -56,11 +57,18 @@ class BlogIndex extends Component {
               <small className="text-muted">Read me >>></small>
             </Card.Footer>
           </Card>
+
         </CardDeck>
-        <div className="blogContentWrapper">
+        <div className="blogIndexWrapper">
+        <Blog1 />
+        <Blog1 />
+        <Blog1 />
+        <Blog1 />
 
         </div>
       </div>
+      
+
     );
   }
 }

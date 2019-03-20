@@ -210,6 +210,11 @@ color: #80deea!important;
     
 }
 
+.BlogIndex .blogIndexWrapper {
+  padding: 4rem 2rem;
+  background: white;
+}
+
 /*
 * === SERVICES PAGE ===
 */

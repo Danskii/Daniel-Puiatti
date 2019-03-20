@@ -1,8 +1,6 @@
 import React, { Component } from "react";
 
 
-
-
 class Blog1 extends Component {
   render() {
     return (
