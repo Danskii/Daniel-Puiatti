@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Image from "react-bootstrap/Image";
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 class Blog3 extends Component {
   render() {
@@ -12,19 +13,19 @@ class Blog3 extends Component {
 								</div>
 								<div className="musingsReminder">
 									This is the third installment of my building a brand from scratch series. It focuses on reaching your brand's target audience. This series is most effective when read in sequence.
-									Here's the
-									<a href="starting-a-brand-from-scratch.html">first part</a> of the series if you'd like to start from there.
+									Here's the 
+									<Link to="/Blog1"> first part</Link> of the series if you'd like to start from there.
 								</div>
                 <div className="blogBodyCopyWrapper">
 								<p>
-									After I had defined my target audience's demographic and psychographic characteristics with help from the  <a href="https://www.facebook.com/business/news/audience-insights">Facebook Audience Insights</a> tool, I started to think about how to put this information about my target audience to work. I needed a way to reach my target audience that was affordable, sustainable and expandable.
+									After I had defined my target audience's demographic and psychographic characteristics with help from the  <a href="https://www.facebook.com/business/news/audience-insights" target="_blank">Facebook Audience Insights</a> tool, I started to think about how to put this information about my target audience to work. I needed a way to reach my target audience that was affordable, sustainable and expandable.
 								</p>
 								<p>The most obvious application was content marketing.</p>
 
 								<h3>Content Marketing? What's Content Marketing? </h3>
 
 								<blockquote>
-									<a href="https://contentmarketinginstitute.com/what-is-content-marketing/">
+									<a href="https://contentmarketinginstitute.com/what-is-content-marketing/" target="_blank">
 										"Content marketing is a strategic marketing approach focused on creating and distributing valuable, relevant, and consistent content to attract and retain a clearly defined audience — and, ultimately, to drive profitable customer action."
 									</a>
 								</blockquote>

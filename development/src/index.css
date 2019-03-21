@@ -203,28 +203,68 @@ box-shadow: -3px 3px 6px 1px #1a5e63;
   font-size: 2rem;
 }
 
+.BlogIndex h3 {
+margin: 3% 0 3% 0;
+  color: #1a5e63;
+  text-shadow: 1.5px 1.5px #dfe0db;
+  font-size: 1.5rem;
+}
+
 .BlogIndex .musingsSubHeading {
   text-align: center;
-  border-bottom: 1px solid black;
+  padding: 0 10% 0 10%;
   margin-bottom: 5%;
   letter-spacing: 2px;
   font-weight: 600;
+  color: #1a5e63;
+  letter-spacing: 2px;
+  font-weight: 600;
+  text-align: center;
 }
 
+.BlogIndex .musingsReminder {
+  font-size: 1.1rem;
+  background: gainsboro;
+  padding: 2%;
+  color: #565151;
+  margin-bottom: 2%;
+
+}
+
+
 .BlogIndex p {
-  margin-bottom: 1rem;
+  margin: 2% 0 2% 0;
   font-size: 1.2rem;
   line-height: 2rem;
 }
 
-.BlogIndex .musingsSubHead {
-  color: #1a5e63;
-    letter-spacing: 2px;
-    font-weight: 600;
-    text-align: center;
+.BlogIndex ol {
+
+    margin: 2% 0 2% 0;
+    font-size: 1.2rem;
+    line-height: 2rem;
+  }
+
+
+
+.BlogIndex blockquote {
+    font-size: 1.3rem;
+    letter-spacing: .013rem;
+    line-height: 2;
+    margin: 4%;
+    padding-left: 13px;
+    padding-right: 13px;
+    word-break: break-word;
 }
 
+.BlogIndex .musingsPhotoEmbed {
+  text-align: center;
+}
 
+.BlogIndex figcaption {
+  /* background: #1a5e63;
+    color: white; */
+}
 
 .BlogIndex .card-deck {
   margin-top: 20px;

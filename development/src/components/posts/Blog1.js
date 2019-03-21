@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Image from "react-bootstrap/Image";
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 class Blog1 extends Component {
   render() {
@@ -22,10 +23,11 @@ class Blog1 extends Component {
             </figure>
             <p>Some money did roll in, but it was far less than was rolling out. I had no financial success with Shopify or Oberlo, but failure imparts it's own value: wisdom. I had attempted to break into a market which was over-saturated with bigger and better product providers. Competing with the likes of Amazon and Ali Express provided too monumental a task.</p>
 
-            <div className="quotes">
+            <blockquote>
               <a href="https://www.techrepublic.com/article/these-8-e-commerce-giants-are-redefining-retail-around-the-world/" target="_blank">
-                <span class="blockQuoteQuotationMark">"</span>Amazon and Alibaba are leading the world-wide e-commerce revolution, according to a study from Website Builder Expert (WBE). In their study, WBE mapped out the world's top online marketplaces. By geographically outlining the top online marketers, the power struggle for e-commerce domination becomes clear.<span class="blockQuoteQuotationMark">"</span>
+                Amazon and Alibaba are leading the world-wide e-commerce revolution, according to a study from Website Builder Expert (WBE). In their study, WBE mapped out the world's top online marketplaces. By geographically outlining the top online marketers, the power struggle for e-commerce domination becomes clear.
               </a>
+              </blockquote>
             </div>
 
             <p>Nevertheless, I was optimistic that I might still be able to develop a profitable ecommerce business. So I started to consider some alternative products and approaches: baby product reviews, pet food newsletters, trading cards forums, you name it. Almost every niche product has a market, and a blog trying to sell you on monetizing it. However, with so many providers offering the same product I would need to rely on a different value proposition. Instead of better prices, faster shipping or sophisticated ecommerce system, I would need to develop a following of people who liked the idea of my business. I would need to develop a brand. So...</p>
@@ -35,7 +37,7 @@ class Blog1 extends Component {
                   fluid
                 />
               <figcaption>
-                <p>I spent some time applying my design skills towards building out a simple tshirt brand.</p>
+                I spent some time applying my design skills towards building out a simple tshirt brand.
               </figcaption>
             </figure>
             <p>
@@ -48,7 +50,7 @@ class Blog1 extends Component {
             <p>But not for long! Now I'll need to figure out how to get followers.</p>
             </div>
           </div>
-          </div>
+         
     );
   }
 }
